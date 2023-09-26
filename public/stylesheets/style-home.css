@@ -7,12 +7,16 @@ h4,
 h5 {
     font-family: 'Cinzel', serif;
 }
+body{
+    background-color: #e0e0e0;
+}
 
 h1 {
-    font-size: 2rem!important;
-   
+    font-size: 2rem !important;
+
 }
-p{
+
+p {
     font-size: larger;
     text-align: center;
     margin: auto;
@@ -20,58 +24,75 @@ p{
 
 nav {
     font-size: 24px;
+    border-bottom: 2px solid #bebebe;
+    background-color:#e0e0e0 ;
+    ;
+}
 
-    background-color: rgba(0,0,0,0.9);;
-}
-.nav-link, .white{
-    color: whitesmoke !important;
-    
-}
-.sized{
+
+
+.sized {
     width: 20%;
     margin: auto;
-  
-  }
-.Title{
-    
-        padding-top: 2rem;
-        width: fit-content;
-        text-align: center;
-        margin: auto;
-        margin-bottom: 3rem;
-       
-   
+
 }
-.padding{
+
+.home {
+    border-radius: 25px;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+
+.Title {
+
+    padding-top: 2rem;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3rem;
+
+
+}
+
+.padding {
     margin-top: 1rem;
     margin-bottom: 5rem;
-    
+
 }
-.subtitle{
-    border-bottom: 3px solid limegreen;
+
+.subtitle {
+    border-bottom: 3px solid grey;
     width: fit-content;
     text-align: center;
     margin: auto;
     margin-bottom: 2rem;
 }
-.important{
+
+.important {
     font-size: 30px;
     padding-bottom: 1rem;
 }
-.centerDiv{
-    color: whitesmoke;
-    background-color: #242424;
+
+.centerDiv {
+    /* color: whitesmoke; */
+    /* background-color: #242424; */
     padding-top: 2rem;
-    padding-bottom: 1rem; 
-    margin-bottom: 5rem;  
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
 }
-.padding2x{
+
+.padding2x {
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
 
-.centerIt{
+.centerIt {
     text-align: center;
     width: fit-content;
     margin: auto
