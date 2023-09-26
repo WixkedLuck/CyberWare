@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Cinzel', serif;
+}
+
+h1 {
+    font-size: 2rem!important;
+   
+}
+p{
+    font-size: larger;
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    font-size: 24px;
+
+    background-color: rgba(0,0,0,0.9);;
+}
+.nav-link, .white{
+    color: whitesmoke !important;
+    
+}
+.sized{
+    width: 20%;
+    margin: auto;
+  
+  }
+.Title{
+    
+        padding-top: 2rem;
+        width: fit-content;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 3rem;
+       
+   
+}
+.padding{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    
+}
+.subtitle{
+    border-bottom: 3px solid limegreen;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.important{
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+.centerDiv{
+    color: whitesmoke;
+    background-color: #242424;
+    padding-top: 2rem;
+    padding-bottom: 1rem; 
+    margin-bottom: 5rem;  
+}
+.padding2x{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.centerIt{
+    text-align: center;
+    width: fit-content;
+    margin: auto
+}
