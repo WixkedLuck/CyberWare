@@ -1,1 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display&display=swap');
+nav {
+    
+    font-size: 24px;
+    border-bottom: 2px solid #4e697d;
+    background-color:#3D4450 ;
+   
+}
