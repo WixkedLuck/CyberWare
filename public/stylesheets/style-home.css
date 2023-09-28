@@ -77,6 +77,10 @@ nav {
     margin-bottom: 5rem;
 
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
 
 .subtitle {
     border-bottom: 3px solid grey;
@@ -134,4 +138,9 @@ nav {
 
 .icons:hover{
     color: whitesmoke;
+}
+
+#about{
+    color:#4e697d !important;
+    border-bottom: #4e697d solid 2px;
 }

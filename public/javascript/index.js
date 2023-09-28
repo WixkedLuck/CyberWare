@@ -8,3 +8,7 @@ homeBtn.addEventListener('click', function () {
         	// clear time out.
     }, 2000);
 })
+
+
+
+

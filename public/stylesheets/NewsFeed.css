@@ -11,4 +11,32 @@ nav {
     box-shadow: 20px 20px 60px #23262E,
         -20px -20px 60px #4e697d;
 }
+#Library{
+    color: #4e697d !important;
+    border-bottom: #4e697d solid 2px;
+}
 
+
+#pages{
+    color: #4e697d !important;
+    border-bottom: #4e697d solid 2px;
+}
+ #welcomeGif{
+    width: 600px;
+} 
+
+.wallpaper{
+    background-image: url("../images/black-ice.jpg");
+    width: auto;
+    padding: 5rem;
+    
+}
+
+.active:hover{
+    color:#23262E !important;
+}
+
+.tile{
+border-left: #4e697d solid 2px;
+
+}

@@ -17,7 +17,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top ">
+    <nav class="navbar navbar-expand-lg  ">
         <div class="container-fluid ">
             <i class="fa-solid fa-robot"></i>
             <h1 class="navbar-brand animate__animated animate__bounce text-light" href="./AboutUs.html"> CyberWare
@@ -29,21 +29,16 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
 
-
-                    <a class="nav-link active d-flex text-light" href="./public/pages/NewsFeed.html">Home</a>
+                    <a class="nav-link  d-flex text-light disabled" id="about">About</a>
+                    <a class="nav-link active d-flex text-light" href="./public/pages/NewsFeed.html">Learning Center</a>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="./public/pages/NewsFeed.html" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Pages
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./public/pages/Phone-Hacking.html">Detecting Mobile Phone Hacking</a></li>
-                            <li><a class="dropdown-item" href="./public/pages/Firewall.html">Firewall Exploits</a></li>
-                            <!-- <li><hr class="dropdown-divider"></li> -->
-                            <li><a class="dropdown-item" href="./public/pages/XSS.html">Dangers of XSS</a></li>
-                        </ul>
+                        
                 </div>
             </div>
+            <div>
+                <a class="fa-solid fa-headset icons" href="./Firewall.html" title="Contact Us"></a>
+                <a class="fa-solid fa-envelopes-bulk icons" title="Inbox"></a>
+              </div>
         </div>
     </nav>
     <br></br>
@@ -75,24 +70,27 @@
                 <li><a>Dangers of XSS</a></li>
             </ul>
             <p class="mt-5"> Get started today! plus it's free</p>
-            <button type="button" id='start' class="btn btn-primary btn-lg padding " href="./public/pages/NewsFeed.html">Lets Go!</button>
+            <button type="button" id='start' class="btn btn-primary btn-lg padding "
+                href="./public/pages/NewsFeed.html">Lets Go!</button>
         </div>
 
 
     </section>
     <br></br>
-<!-- footer -->
-<div class="card w-100 centerDiv centerIt">
-    <div class="card-body">
-      <h5 class="card-title">Nice! you made it to the bottom...</h5>
-      <p class="card-text">Additional Content:</p>
-      <div>
-        <a class=" fa-brands fa-linkedin icons " href="https://www.linkedin.com/in/david-a-hybner/"
-            target="blank"></a>
-        <a class="fa-brands fa-github-alt icons" href="https://github.com/WixkedLuck/CyberPunk" target="blank"></a>
+    <!-- footer -->
+    <div class="card w-100 centerDiv centerIt">
+        <div class="card-body">
+            <h5 class="card-title">Nice! you made it to the bottom...</h5>
+            <p class="card-text">Additional Content:</p>
+            <div>
+                <a class=" fa-brands fa-linkedin icons " href="https://www.linkedin.com/in/david-a-hybner/"
+                    target="blank"></a>
+                <a class=" fa-solid fa-school icons " href="https://www.vsu.edu/" target="blank"></a>
+                <a class="fa-brands fa-github-alt icons" href="https://github.com/WixkedLuck/CyberPunk"
+                    target="blank"></a>
+            </div>
+        </div>
     </div>
-    </div>
-  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
