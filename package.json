@@ -1,0 +1,11 @@
+{
+  "name": "cyberpunk",
+  "version": "1.0.0",
+  "description": "An educational site to learn more about cyber security",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

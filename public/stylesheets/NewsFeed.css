@@ -6,3 +6,9 @@ nav {
     background-color:#3D4450 ;
    
 }
+
+.card{
+    box-shadow: 20px 20px 60px #23262E,
+        -20px -20px 60px #4e697d;
+}
+

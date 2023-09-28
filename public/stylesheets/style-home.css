@@ -14,6 +14,7 @@ body{
 
 h1 {
     font-size: 2rem !important;
+    
 
 }
 
@@ -27,11 +28,21 @@ nav {
     
     font-size: 24px;
     border-bottom: 2px solid #4e697d;
-    background-color:#3D4450 ;
+    background-color:#3D4450   ;
    
 }
 
-
+.btn-primary{
+    background-color: #23262E;
+    border: #4e697d solid 2px;
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn-primary:hover{
+    background-color: #4e697d;
+}
 
 .sized {
     width: 20%;
@@ -87,7 +98,9 @@ nav {
     padding-bottom: 1rem;
     margin-bottom: 5rem;
 }
-
+.underline{
+    border-bottom:solid 2px #4e697d ;
+}
 .padding2x {
     text-align: center;
     margin-top: 5rem;
