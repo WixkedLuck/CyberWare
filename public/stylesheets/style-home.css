@@ -31,6 +31,12 @@ nav {
     background-color:#3D4450   ;
    
 }
+.logo{
+    width: 200px;
+    margin: 0px;
+    padding-right: 10px;
+    border: 0px;
+}
 
 .btn-primary{
     background-color: #23262E;
@@ -143,4 +149,28 @@ nav {
 #about{
     color:#4e697d !important;
     border-bottom: #4e697d solid 2px;
+}
+
+.content {
+    border-radius: 0px;
+    /* width: fit-content; */
+    margin: auto;
+   
+    padding: 2rem;
+    background: #3D4450;
+    box-shadow: 20px 20px 60px #23262E,
+        -20px -20px 60px #4e697d;
+}
+
+.subTitle{
+    font-size: 20px;
+    border-bottom: #4e697d 2px solid;
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.accordion{
+    width: 30%;
+    
+    background-color: #3D4450 !important;
 }
