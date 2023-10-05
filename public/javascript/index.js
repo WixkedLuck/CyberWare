@@ -4,7 +4,7 @@ homeBtn.addEventListener('click', function () {
     homeBtn.classList.add("animate__animated", "animate__hinge");
     let tID = setTimeout(function () {
         window.clearTimeout(tID);	
-        window.location.assign ("./public/pages/NewsFeed.html");
+        window.location.assign ("./public/pages/LearningCenter.html");
         	// clear time out.
     }, 2000);
 })
