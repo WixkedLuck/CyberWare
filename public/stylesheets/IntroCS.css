@@ -86,3 +86,23 @@ font-size: larger;
 .text-info:hover{
     color:whitesmoke !important;
 }
+
+
+
+.over:hover {
+    
+    border-color:#876bd1 ;
+    box-shadow: 20px 20px 60px #876bd1,
+    -20px -20px 60px #5c4a8d;
+    
+}
+.over:hover i{
+   color: #876bd1; 
+}
+.over:hover h5{
+    border-color: #876bd1;
+}
+.over:hover a{
+    border-color: #876bd1;
+
+}
