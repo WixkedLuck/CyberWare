@@ -10,7 +10,7 @@
  * [Site](#site)
 
 # Description
-- A website about different aspects of cyber security
+-Our website is designed with education in mind and we hope you will enjoy the different activies we have set up for you to explore a few topics in cyber security. We created this website with intentions to help educate users that may not know much about a topic or set of topics. As the internet and technology continues to grow, there is an ever growing importance of protecting data. It is crutical because it helps to protect organizations and individuals from cyber attacks. Taking the time to learn more could be the difference, Start now
 
 
 # Installation
@@ -34,7 +34,6 @@ The purpose behind this project was to provide a platform for students and those
 
 # Site
 Deployed Link: 
-https://smolbytes.herokuapp.com/
+https://wixkedluck.github.io/CyberWare/
 
-![Workspace-Demo](./client/src/images/Workspace.PNG)
-![Home-Demo](./client/src/images/home.PNG)
+![Learning-Center](./public/images/LearningC.png)
