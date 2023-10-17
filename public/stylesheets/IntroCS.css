@@ -4,7 +4,7 @@
     suffix: " ";
   }
   
-  ul {
+  .custom {
     list-style: thumbs;
   }
   #introCS{
@@ -35,6 +35,9 @@
     margin: 5rem;
     /* margin-bottom: 15rem; */
     padding-top: 5rem;
+}
+.space2{
+    margin-top: 5rem;
 }
 .glass{
     
@@ -87,7 +90,10 @@ font-size: larger;
     color:whitesmoke !important;
 }
 
-
+.list-group-item{
+    background-color: #4e697d;
+    color: whitesmoke;
+}
 
 .over:hover {
     
