@@ -366,6 +366,3 @@ ClearHistory.addEventListener('click',function () {
 
  
 
-myModal.addEventListener('shown.bs.modal', () => {
-  myInput.focus()
-})
