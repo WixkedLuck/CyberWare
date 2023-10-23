@@ -9,18 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200;300&display=swap" rel="stylesheet">
+    
     <script src="https://kit.fontawesome.com/ff0398e8e5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../stylesheets/style-home.css">
     <link rel="stylesheet" href="../stylesheets/NewsFeed.css">
+    <link rel="stylesheet" href="../stylesheets/XSS.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg sticky-top ">
+<body class="phone">
+    <nav class="navbar navbar-expand-lg  ">
         <div class="container-fluid ">
-            
-            <h1 class="navbar-brand  text-light" href="./AboutUs.html"> <i class="fa-solid fa-shield-cat"></i> CyberWare
+
+            <h1 class="navbar-brand  text-light" href="./index.html"> <i class="fa-solid fa-shield-cat"></i>CyberWare
             </h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,29 +33,397 @@
                 <div class="navbar-nav">
 
                     <a class="nav-link active d-flex text-light" href="../../index.html">About</a>
-                    <a class="nav-link active d-flex text-light" href="./NewsFeed.html">Learning Center</a>
+                    <a class="nav-link  d-flex text-light active" href="../pages/LearningCenter.html">Learning
+                        Center</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" id="pages" href="./public/pages/NewsFeed.html"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Pages
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./Phone-Hacking.html">Detecting Mobile Phone Hacking</a>
+                            <li><a class="dropdown-item" href="./IntroCS.html">Intro to Cybersecurity</a>
+                            </li>
+                            <li><a class="dropdown-item" href="./MobileMaleware.html">Mobile Malare</a>
                             </li>
                             <li><a class="dropdown-item" href="./Firewall.html">Firewall Exploits</a></li>
-                            <!-- <li><hr class="dropdown-divider"></li> -->
-                            <li><a class="dropdown-item" href="./XSS.html">Dangers of XSS</a></li>
+                           
+                            <li><a class="dropdown-item" href="./SqlInjections.html">SQL Injection Attacks</a></li>
                         </ul>
+                </div>
+
+            </div>
+            <div>
+                <a class="fa-solid fa-gears icons"  title="Settings"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                   </a>
+                <a class="fa-solid fa-envelopes-bulk icons" title="Inbox"></a>
+            </div>
+        </div>
+
+        <!-- <comment -->
+
+    </nav>
+   
+    <div class="content text-center glass">
+        <div class="centerDiv ">
+           
+           
+                <h1 class='Title  space underline centerIt animate__animated animate__flipInY '><i class="fa-solid fa-code"></i> Cross-Site Scripting (XSS) <i class="fa-solid fa-code"></i> </h1>
+                <p id="introCS" >Welcome! Our website is designed with education in mind and we hope you will enjoy the
+                    different activies we have set up for you to explore a few topics in cyber security. We created this
+                    website with intentions to help educate users that may not know much about a topic or set of topics.
+                    As
+                    the internet and technology continues to grow, there is an ever growing importance of protecting
+                    data.
+                    It is crutical because it helps to protect organizations and individuals from cyber attacks. Taking
+                    the
+                    time to learn more could be the difference, Start now</p>
+            </div>
+            
+        
+    </div>
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid ">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav centerIt">
+
+                    <a class="nav-link active d-flex text-light " href="#Intro">Introduction</a>
+                    <a class="nav-link active d-flex text-light tile" href="#Exp">Cybersecurity 101</a>
+                    <a class="nav-link active d-flex text-light tile" href="#addon">Additional Content</a>
+                    <a class="nav-link  d-flex text-light active tile" href="#firstC">The Challange</a>
+
+
                 </div>
             </div>
         </div>
-        <div>
-            <a class="fa-solid fa-headset icons" href="./Firewall.html" title="Contact Us"></a>
-            <a class="fa-solid fa-envelopes-bulk icons" title="Inbox"></a>
-        </div>
     </nav>
-    <br></br>
-    <h1>Dangers of XSS</h1>
+    <!-- main content section  -->
+    <section class=" content">
+
+
+        <!-- Quick links -->
+
+
+
+
+
+
+        <div class=" ">
+            <div class="centerDiv centerIt row">
+                <div class="col">
+                    <h2 class="Title" id="Intro">Introduction:</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DqK_OYat-3M?si=_qBClkXDkevlyoEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="col">
+                    <ul class="centerIt fs-5">
+                        <p >
+                           Think about this for just a moment. You are shopping online and you get an important email asking you to fill out information on your residence and a few other questions to verify your account. Moments later you find out your credit card information was stolen and you have been locked out of your accounts.
+                        </p><br></br>
+                        <p>
+                            Personal data is everywhere, information such as bank statments, health records and even personalized playlist make up just a portion of information about you
+                        </p><br></br>
+                        <p> So the question is what are YOU willing to give up to live a life full of convenience in the digital age. Is privacy the price we pay for having such a luxurary? </p>
+                </div>
+            </div>
+            <br></br>
+
+         
+           
+            <br></br>
+            <!-- cards section -->
+            <h3 class="underlined" id="Exp">Cybersecurity 101</h3>
+            <br></br>
+            <h2 class="subTitle">Why is Cybersecurity Important?:</h2>
+            <p class="card-body"> Cybersecurity is an ongoing effort to help protect the information of the world from
+                potental cyberattacks. Its not about what will happen but when..It is our job to stay vigilant and
+                protect our networking systems and data from unauthorized use or harm.
+            </p>
+            <br></br>
+            <div class="container">
+                <h2 class="subTitle centerIt space2" style="margin-bottom: 3rem;">Three levels of Protection:</h2>
+            </div>
+            <br></br>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="card over" style="width: 100%; min-height: 18rem;">
+                            <i class="fa-solid fa-user resized"></i>
+                            <div class="card-body">
+                                <h5 class="card-title underlined">Personal </h5>
+                                <p class="card-text">It's You! Your personal data, indentity and any other information
+                                    that defines your user. It is important to safegaurd this data!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="margin-left: 3rem; margin-right: 3rem;">
+                        <div class="card over" style="width: 100%; min-height: 18rem; ">
+                            <i class="fa-solid fa-people-group resized"></i>
+                            <div class="card-body">
+                                <h5 class="card-title underlined">Organizational</h5>
+                                <p class="card-text">As an organization, it is important that all members take
+                                    responsibility to protect and uphold an organization's reputation, senstive data and
+                                    relationships</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card over" style="width: 100%; min-height: 18rem;">
+                            <i class="fa-solid fa-building-columns resized"></i>
+                            <div class="card-body">
+                                <h5 class="card-title underlined">Governments</h5>
+                                <p class="card-text">At this level it becomes even more cruitial to protect data as this
+                                    could be a threat to national security, economic stability and the saftey of those
+                                    governed.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br> </br>
+            <!-- Your data section -->
+            <h2 class="subTitle centerIt space2">Your Data:</h2>
+            <p class="card-body " style="margin-top: 2rem;">Personal data is any information about you that can help identify you both online and offline.</p><br></br>
+            <div class="centerDiv centerIt row ">
+                <div class="col card width-80">
+                    <div class="card-header ">
+                        <h3> Online</h3>
+                       </div>
+                    <p>Information that can be viewed on electronic devices and sometimes stored in the cloud such as:</p>
+                    <br></br>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item">Username</li>
+                        <li class="list-group-item">Email</li>
+                        <li class="list-group-item">Virtual Persona</li>
+                        <li class="list-group-item">Documents</li>
+                        <li class="list-group-item">Social Media</li>
+                        <br></br>
+                       </ul>
+                </div>
+                <div class="col card width-80">
+                    <div class="card-header">
+                       <h3> Offline</h3>
+                      </div>
+                   <p>Information that is about your personal day to day life such as:</p>
+                   <br></br>
+                   <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Name</li>
+                    <li class="list-group-item">Address</li>
+                    <li class="list-group-item">Age</li>
+                    <li class="list-group-item">Gender</li>
+                    <li class="list-group-item">Physical Features</li>
+                    <br></br>
+                    
+                   </ul>
+                  
+                </div>
+                
+                <p class="space2">It is important for both types of data to be secure as this can easily be accessed and taken from under you at anytime!</p>
+            </div>
+        <br></br>
+         <!-- hackers demands section -->
+         <h2 class="subTitle centerIt space2">The Demands of a Hacker:</h2>
+         <p class="card-body " style="margin-top: 2rem;">When it comes to your personal data and even confidentail material in the work force, hackers aim to get one thing out of it <span class="boldly">MONEY</span> </p><br></br>
+         <div class="centerDiv centerIt row ">
+             <div class="col card width-80">
+                 <div class="card-header ">
+                     <h3> Typical Exploits:</h3>
+                    </div>
+                 <p>When it comes to getting access to data there are many ways to accomplish this, some common ways are as follows:</p>
+                 <br></br>
+                 <ul class="list-group list-group-flush ">
+                     <li class="list-group-item">Phising Attacks</li>
+                     <li class="list-group-item">XSS Attacks</li>
+                     <li class="list-group-item">Malware</li>
+                     <li class="list-group-item">SQL Injection</li>
+                     <li class="list-group-item">Ransomware</li>
+                     <li class="list-group-item">Denial-of-service attack</li>
+                     <br></br>
+                    </ul>
+             </div>
+             <div class="col width-80">
+                <p>Click on the button below to find out more on each of these topics:</p>
+                <button type="button" class="btn btn-lg btn-primary" style="margin-top: 2rem;" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="Aha I got you! you were so trusting with finding out more information on this topic and yet I FOOLED you! This is just a simple XSS trick that I made for you to believe clicking on this button would give you more information and yet I am rambling on to waste your time..just 30 more seconds, oh did I tell you about this time where...Bingo! I have your information now sucker! That'll be $100 to give it back and another $30M for wasting my time >:) ">More Information</button>
+                <br></br><img src="../images/upload.gif" style="max-width: 10%;"  alt="Frozen in time">
+             </div>
+             
+             <p class="space2">Remember as a good rule of thumb do not trust any source unless you can verify it first!</p>
+         </div>
+           <!-- Who wants your info continued -->
+           <div class="container text-center">
+            <div class="row">
+                <div class="col">
+         <h2 class="subTitle centerIt" style="margin-top: 3rem; margin-bottom: 5rem;">Who else wants your information?</h2>
+         <div class="accordion centerIt" style="width: 80%; " id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Internet Service Provider (ISP)
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Your ISP keeps track of your online activies and in some cases, can sell off this data to advertisers for <strong>MONEY!</strong> wait whattt?! 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Advertisers
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Have you ever visited a site and <strong>BAM!</strong> out of nowhere you got an advertisment for that item you always wanted? how did they know and it's on sale too! 
+                    Advertisers monitor and track valuable information on your online presence, including and not limited to: shopping habbits, search history, and even demographic to hit that sweet spot of <strong>Targeted advertisment!</strong>                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Search Engines and Social Media Platforms
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                   Social media platforms and search engines can get a lot of information out of you without a person even realizing it. Things such as your <strong>Name, Age, Location, and Phone Number</strong> can easily be taken seeing how it's information people quickly give up and make public.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                   Websites
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Websites use <strong>cookies</strong> to keep track of your personal data as you interact with the site. As you continue to visit, the site may change to be more personalized towards you! However, be aware this can cause a trail of data about you and can be linked back to your online profile.
+                  </div>
+                </div>
+              </div>
+          </div>
+                </div>
+                <div class="col">
+                    <img src="../images/man-holding-note.gif" alt="Informant" style="max-width: 500px;">
+                </div>
+        </div>
+           </div>
+           <!-- additonal content section  -->
+           <section class=" space " id="addon" style="margin-bottom: 10rem;">
+            <h2 class="underlined" style="margin-top: 5rem;">Additional Content</h2>
+            <div class="container text-center">
+
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="margin-top: 5rem;">
+                            <h3>More topics</h3>
+                            <p class="underline">Intrested in cybersecurity? Why not check out some other learning enviroments and certifcations</p>
+                            <br></br>
+                            <ul class="centerIt fs-4 "  style="margin-bottom: 5rem;">
+                                <li ><a href="https://www.hackerrank.com/domains/security" target="blank" class="text-info">HackerRank security Challanges</a></li>
+                                <li> <a href="https://www.eccouncil.org/" target="blank" class="text-info">EC Council</a></li>
+                                <li><a href="https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity" target="blank" class="text-info">CISCO Intro to Cybersecurity</a></li>
+                                <li><a href="https://www.coursera.org/professional-certificates/google-cybersecurity?utm_medium=sem&utm_source=gg&utm_campaign=B2C_NAMER_google-cybersecurity_google_FTCOF_professional-certificates_country-US&campaignid=20086358053&adgroupid=147458924814&device=c&keyword=cyber%20security%20certification&matchtype=b&network=g&devicemodel=&adposition=&creativeid=657336976318&hide_mobile_promo&gclid=Cj0KCQjwhL6pBhDjARIsAGx8D5-COEyEgec34Pcd5Lh-Zj5kOJoTCO4VJ1VeQCPWKGgU7wmDYVzGQdsaApSZEALw_wcB" target="blank" class="text-info">Google Cybersecurity Professional Certificate</a></li>
+    
+                            </ul>
+    
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="../images/books.png" alt="Frozen in time" style="width:50%; margin-top: 7rem;">
+                    </div>
+                    <div class="col">
+                        <div class="card" style="margin-top: 5rem; ">
+                            <h3>More Videos</h3>
+                            <p class="underline">Why not check out some videos on all topics cybersecurity:</p>
+                            <br></br>
+                            <ul class="centerIt fs-4 " style="margin-bottom: 5rem;">
+                                <li ><a href="https://www.youtube.com/watch?v=A_ZRUWdz6EQ&list=PL2pczNDCqy8O7HYQ7XKBtUYlk2FPBKJpu" target="blank" class="text-info">CISCO CyberOps</a></li>
+                                <li> <a href="https://www.youtube.com/watch?v=yFC8pb2TPdc&list=PLIhvC56v63IIJZRa3lzK6IeBQOH_VFjUQ"  target="blank" class="text-info">Ethical Hacking</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=sesacY7Xz3c" target="blank" class="text-info">Cybersecurity Architechure</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=qjrkV4RjgIU" target="blank" class="text-info">Security for Developers</a></li>
+    
+                            </ul>
+    
+                        </div>
+                    </div>
+                </div>
+        </section>
+         <!-- First challange -->
+        <h2 class="underlined" style="margin-top: 5rem;" id="firstC">The Challange</h2>
+        
+        <div class="container  centerDiv">
+            <p class="fs-4" style="margin-bottom: 5rem;"> For this challange we have introduced quite a few beginner concepts for <span
+                    class="boldly">Cybersecurity </span>. Why not take a moment and review these topics with a quick
+                quiz!
+
+            </p>
+            <section class="container w-50 text-center" id="root">
+            </section>
+            <section class="container w-50 text-center" id="feedback">
+            </section>
+            <br></br>
+           
+        </div>
+
+        <br></br>
+    </section>
+    <!-- section with astronot -->
+    <section class=" space " >
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="../images/pacman.gif" style="max-width: 80% ;" alt="Frozen in time">
+                </div>
+                <div class="col">
+                    <div class="glass2">
+                        <h3>Great Job!</h3>
+                        <p class="underline">Why not check out some other modules?</p>
+                        <br></br>
+                        <ul class="centerIt fs-4 custom">
+                            <li> <a href="./IntroCS.html" class="text-info">Intro to Cybersecurity</a></li>
+                            <li ><a href="./MobileMaleware.html" class="text-info">MobileMaleware</a></li>
+                            <li><a href="./SqlInjections.html" class="text-info">SQL Injection Attacks</a></li>
+                            <li><a href="./Firewall.html" class="text-info">Firewall Exploits</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+      
+      <!-- Settings Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-4" id="exampleModalLabel" style="color: black;">Settings:</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <button class="btn-primary  fa-solid fa-eraser icons fs-5" id="History"> Erase all Data</button>
+                <button class="btn-primary fa-solid fa-lightbulb icons fs-5" title="Light/Dark Mode"> Change Mode</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+   
     <br></br>
     <!-- footer -->
     <div class="card w-100 centerDiv centerIt footer">
