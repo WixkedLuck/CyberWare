@@ -89,10 +89,10 @@ nav {
 }
 
 .subtitle {
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid #4e697d;
     width: fit-content;
-    text-align: center;
-    margin: auto;
+
+    
     margin-bottom: 2rem;
 }
 
@@ -113,7 +113,7 @@ nav {
 }
 .padding2x {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 10rem;
     margin-bottom: 2rem;
 }
 
