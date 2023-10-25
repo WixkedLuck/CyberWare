@@ -139,3 +139,9 @@ font-size: larger;
   --animate-delay: 15s;
   --animate-duration: 1.5s;
 }
+.scroller {
+    height: 300px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+  
