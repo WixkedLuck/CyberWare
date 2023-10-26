@@ -3,7 +3,9 @@
     symbols: "\1F6F8" "\1F680" "\1F6F0" "\1FA90" "\2604";
     suffix: " ";
   }
-  
+  a:hover {
+    cursor:pointer;
+   }
   .custom {
     list-style: thumbs;
   }

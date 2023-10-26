@@ -248,22 +248,28 @@
                 <h2 class="underlined Title" style="margin-top: 5rem;">The Continuous Fight:</h2>
                 <div class="container text-center">
                     <div class="row">
+                        <h2 class="" style="padding-top:3rem; margin-bottom: 3rem;">Googles Approach to XSS Attacks:</h2>
+
                         <div class="col" >
-                     <pre class="line-numbers" >
-                        <code class="language-javascript" >
-                            //This is an example of a known XSS vunerable script 
-                            const untrustedInput = new URLSearchParams(location.search).get('kw');
-                            const keyword = document.getElementById('kw');
-                            keyword.innerHtml = untrustedInput; //XSS
-                            //We would then render this to the DOM in the form of an HTML tag
-                        </code>
-                     </pre>
+                            <img src="../images/google.png" alt="Google-photo">
                         </div>
-                        <div class="col">
-                            <img src="../images/web-template.png" alt="Website-image" style="max-width: 300px; padding-top: 3rem;">
+                        <div class="col " style="padding-left: 1rem; padding-top: 7rem;">
+                            <div class="card" >
+                            <div class="scroller">
+                                <p style="padding-top: 1rem; padding-bottom: 1rem;">A few studies on the matter have taken place over the last few years, one study we wanted to highlight is that of Google's API hardening technique.</p>
+                            <h5 class="underlined">Breif Overview:</h5>
+                                <p style="padding-bottom: 1rem; padding-top: 1rem;">Google is a well known tech company that is widely known for there vast search engine. There are many other technologies and tasks that happen every single day in the office and one problem Google tried to tackle was that of XSS attacks. Knowing that people around the world rely on their product they had to find a way to harden their cybersecurity force and came up with the idea of creating what they call, API Harding.    </p>
+                            <h5 class="underlined">Initial Preperation: </h5>
+                            <p style="padding-bottom: 1rem; padding-top: 1rem;">Before pouring tons of money into the development of this new technique, Google had to take the time to research past attacks and figure out what made them so vulnerable in the first place. Over two years of time and research was taken to get enough data on the topic prior to development.</p>
+                            <p>Google brought to the table in a conference meeting their findings and the new technique that would be later rolled out to all of their various development departments. </p>
+                            <p>Starting with <a class="text-primary" title="figureOne-link" data-bs-toggle="modal"
+                                data-bs-target="#figureOne">Figure one</a> Google begain breaking down the need for this new technique and tried to bring awarness to this ever growing threat.</p>
+                        </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <p style="margin-top: 15rem;">This is just one approach to tackling XSS attacks. There are various other ways to solve this problem seeing how there are multiple ways for an attacker to infultrate a program. With research and development constantly being done we can even the odds!</P>
             </section>
             <!-- additonal content section  -->
             <section class=" space " id="addon" style="margin-bottom: 10rem;">
@@ -380,6 +386,36 @@
         </div>
     </div>
 
+     <!-- Figure1 Modal -->
+     <div class="modal fade" id="figureOne" tabindex="-1" aria-labelledby="figureOne-Modal" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-4" id="exlabel" style="color: black;">Firgure One:</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <pre class="line-numbers" >
+                        <code class="language-javascript" >
+                            //This is an example of a known XSS vunerable script 
+                            const untrustedInput = new URLSearchParams(location.search).get('kw');
+                            const keyword = document.getElementById('kw');
+                            keyword.innerHtml = untrustedInput; //XSS
+                            //We would then render this to the DOM in the form of an HTML tag
+                        </code>
+                     </pre>
+                     <div class="scroller text-dark">
+                        <h5 class="underlined Title" style="font-size: x-large ;">The Breakdown:</h5>
+                     </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
 
     <br></br>
     <!-- footer -->
