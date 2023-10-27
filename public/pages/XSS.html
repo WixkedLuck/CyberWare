@@ -123,7 +123,9 @@
                 <div class="col">
                     <ul class="centerIt fs-5">
                         <p>
-                            -  Cross-site scripting, better known as XSS is an attack in which an attacker injects malicious executable scripts into the code of a trusted source. Typically this code can run without the need of server side rendering.
+                            - Cross-site scripting, better known as XSS is an attack in which an attacker injects
+                            malicious executable scripts into the code of a trusted source. Typically this code can run
+                            without the need of server side rendering.
                         </p><br></br>
                         <p>
                             - With tons of efforts spent on its mitigation, Cross-site scripting (XSS) remains one of
@@ -147,7 +149,8 @@
             <br></br>
             <div class="container">
                 <h2 class="subTitle centerIt space2" style="margin-bottom: 3rem;">What's the big deal?:</h2>
-                <p>The question most are probably asking right now. Why does it matter? well here are just a few reasons to care:</p>
+                <p>The question most are probably asking right now. Why does it matter? well here are just a few reasons
+                    to care:</p>
             </div>
             <br></br>
             <div class="container text-center">
@@ -157,7 +160,8 @@
                             <i class="fa-solid fa-cookie-bite resized"></i>
                             <div class="card-body">
                                 <h5 class="card-title underlined">Cookies </h5>
-                                <p class="card-text">Attackers can read private data specific to the site you are on such as cookies and other local data</p>
+                                <p class="card-text">Attackers can read private data specific to the site you are on
+                                    such as cookies and other local data</p>
 
                             </div>
                         </div>
@@ -167,7 +171,10 @@
                             <i class="fa-solid fa-user-secret resized"></i>
                             <div class="card-body">
                                 <h5 class="card-title underlined">Ongoing Operations</h5>
-                                <p class="card-text">As the attackers have access to the site now, they can choose to create further damage by keeping up the oppression! Loading in more JavaScript executable code can further weaken the sites code and in turn they can launch higher scale attacks.</p>
+                                <p class="card-text">As the attackers have access to the site now, they can choose to
+                                    create further damage by keeping up the oppression! Loading in more JavaScript
+                                    executable code can further weaken the sites code and in turn they can launch higher
+                                    scale attacks.</p>
 
                             </div>
                         </div>
@@ -177,7 +184,8 @@
                             <i class="fa-solid fa-repeat resized"></i>
                             <div class="card-body">
                                 <h5 class="card-title underlined">Unlimited Access</h5>
-                                <p class="card-text">With unlimited access to the site, the attackers can change how a user interacts with the site!</p>
+                                <p class="card-text">With unlimited access to the site, the attackers can change how a
+                                    user interacts with the site!</p>
 
                             </div>
                         </div>
@@ -185,11 +193,17 @@
                 </div>
             </div>
             <br> </br>
-           
+
             <br></br>
             <!-- hackers demands section -->
             <h2 class="subTitle centerIt space2">Known XSS Attacks:</h2>
-            <p class="card-body " style="margin-top: 2rem; margin-left:10rem; margin-right: 10rem;">Cross-site scripting attacks are a type of injection with malicious scripts placed into trusted sites. For this to occur generally, the attacker will send browser side script code to a different end user whch inturn the unsuspecting user's browser has no way to know if this is a trusted source or not and executes it anyways. With this in mind, there have been enough attacks done to create different categies (although not all can be classified since there is always an ongoing effort to combat these attacks and can change overtime) these are just a few of the known types:
+            <p class="card-body " style="margin-top: 2rem; margin-left:10rem; margin-right: 10rem;">Cross-site scripting
+                attacks are a type of injection with malicious scripts placed into trusted sites. For this to occur
+                generally, the attacker will send browser side script code to a different end user whch inturn the
+                unsuspecting user's browser has no way to know if this is a trusted source or not and executes it
+                anyways. With this in mind, there have been enough attacks done to create different categies (although
+                not all can be classified since there is always an ongoing effort to combat these attacks and can change
+                overtime) these are just a few of the known types:
             </p><br></br>
             <p>XSS attacks can generally be categorized into two categories: reflected and stored</p>
             <div class="centerDiv centerIt row ">
@@ -197,15 +211,18 @@
                     <div class="card-header ">
                         <h3> Reflected:</h3>
                     </div>
-                    <p style="padding-top: 2rem;">Reflected attacks are attacks where injected script is reflected off the web server. These attacks are delivered to a victim through routes such as emails or interaction with another malicious site:</p>
+                    <p style="padding-top: 2rem;">Reflected attacks are attacks where injected script is reflected off
+                        the web server. These attacks are delivered to a victim through routes such as emails or
+                        interaction with another malicious site:</p>
                     <br></br>
-                   <img src="../images/attack.jpg" alt="Reflected-Attack-Image" style="padding-bottom: 3rem;">
+                    <img src="../images/attack.jpg" alt="Reflected-Attack-Image" style="padding-bottom: 3rem;">
                 </div>
                 <div class="col card width-80">
                     <div class="card-header ">
                         <h3> Stored:</h3>
                     </div>
-                    <p style="padding-top: 2rem;">Stored attacks are those that have the injected script permanently stored on the targets servers such as in databases, forums, comments, ect.</p>
+                    <p style="padding-top: 2rem;">Stored attacks are those that have the injected script permanently
+                        stored on the targets servers such as in databases, forums, comments, ect.</p>
                     <br></br>
                     <img src="../images/stored-attack.jpg" alt="Reflected-Attack-Image" style="padding-bottom: 3rem;">
                 </div>
@@ -214,32 +231,49 @@
             <!-- Dom based XSS attack -->
             <div class="container text-center">
                 <div class="row">
-                    <div class="col" >
-                      <div class="card-header" style="margin-bottom: 3rem; margin-top: 3rem;" >
-                        <p>Document Object Model (DOM) based attacks are those that enables attackers to inject malicious payload into a webpage that inturn maniplates the client sides browser enviroment.</p>
-                      </div>
-                      <div class="card">
-                        <div class="scroller">
-                            <h5 class="underlined" style="width: auto; margin-top: 1rem;">What is DOM-based XSS?</h5>
-                            <p style="margin-top: 1rem; margin-bottom: 1rem;">So what do we mean by this? Well these attacks can change the HTML source code without the need to communicate with the server. This type of attack is orchestrated on the client-side after the intial loading of the page. Since the malicious input is stored within the client's browser enviroment the attack cannot be detected using traditional methods of analysis. </p>
-                            <h5 class="underlined">How can we prevent this type of attack?</h5>
-                            <p style="margin-top: 1rem; margin-bottom: 1rem;">Just like the attacks before, the goal is to get infromation on you. DOM-based vulnerabilities allow adversaries to steal/modify legitimate users' data such as cookies or session tokens to access your sensative data.</p>
-                            <p style="margin-bottom: 2rem;">Some ways to help prevent these attacks are as follows:</p>
-                            <ul style="width: fit-content; margin: auto;">
-                                <li>JavaScript Frameworks</li>
-                                <li>Avoiding the use of URI fragments</li>
-                                <li>Use of a content security policy</li>
-                                <li>Automated DOM-based XSS vulnerability scanner</li>
-                                <li>Use of safe APIs</li>
-                            </ul>
-                            <h5 class="underlined" style="margin-top: 1rem;">The importance of preventing DOM-based attacks</h5>
-                            <p style="margin-bottom: 1rem;">While these attacks are solely on the client-side of websites, the vulnerability starts on the server-side. Therefore, it is important for developers to take action to try to prevent these attacks as this could be senstive customer data leaked to the attacker which in turn could make  your company  lose repuation and trust.</p>
-                            
+                    <div class="col">
+                        <div class="card-header" style="margin-bottom: 3rem; margin-top: 3rem;">
+                            <p>Document Object Model (DOM) based attacks are those that enables attackers to inject
+                                malicious payload into a webpage that inturn maniplates the client sides browser
+                                enviroment.</p>
                         </div>
-                      </div>
+                        <div class="card">
+                            <div class="scroller">
+                                <h5 class="underlined" style="width: auto; margin-top: 1rem;">What is DOM-based XSS?
+                                </h5>
+                                <p style="margin-top: 1rem; margin-bottom: 1rem;">So what do we mean by this? Well these
+                                    attacks can change the HTML source code without the need to communicate with the
+                                    server. This type of attack is orchestrated on the client-side after the intial
+                                    loading of the page. Since the malicious input is stored within the client's browser
+                                    enviroment the attack cannot be detected using traditional methods of analysis. </p>
+                                <h5 class="underlined">How can we prevent this type of attack?</h5>
+                                <p style="margin-top: 1rem; margin-bottom: 1rem;">Just like the attacks before, the goal
+                                    is to get infromation on you. DOM-based vulnerabilities allow adversaries to
+                                    steal/modify legitimate users' data such as cookies or session tokens to access your
+                                    sensative data.</p>
+                                <p style="margin-bottom: 2rem;">Some ways to help prevent these attacks are as follows:
+                                </p>
+                                <ul style="width: fit-content; margin: auto;">
+                                    <li>JavaScript Frameworks</li>
+                                    <li>Avoiding the use of URI fragments</li>
+                                    <li>Use of a content security policy</li>
+                                    <li>Automated DOM-based XSS vulnerability scanner</li>
+                                    <li>Use of safe APIs</li>
+                                </ul>
+                                <h5 class="underlined" style="margin-top: 1rem;">The importance of preventing DOM-based
+                                    attacks</h5>
+                                <p style="margin-bottom: 1rem;">While these attacks are solely on the client-side of
+                                    websites, the vulnerability starts on the server-side. Therefore, it is important
+                                    for developers to take action to try to prevent these attacks as this could be
+                                    senstive customer data leaked to the attacker which in turn could make your company
+                                    lose repuation and trust.</p>
+
+                            </div>
+                        </div>
                     </div>
                     <div class="col">
-                        <img src="../images/web-template.png" alt="Website-image" style="max-width: 500px; padding-top: 3rem;">
+                        <img src="../images/web-template.png" alt="Website-image"
+                            style="max-width: 500px; padding-top: 3rem;">
                     </div>
                 </div>
             </div>
@@ -248,85 +282,112 @@
                 <h2 class="underlined Title" style="margin-top: 5rem;">The Continuous Fight:</h2>
                 <div class="container text-center">
                     <div class="row">
-                        <h2 class="" style="padding-top:3rem; margin-bottom: 3rem;">Googles Approach to XSS Attacks:</h2>
+                        <h2 class="" style="padding-top:3rem; margin-bottom: 3rem;">Googles Approach to XSS Attacks:
+                        </h2>
 
-                        <div class="col" >
+                        <div class="col">
                             <img src="../images/google.png" alt="Google-photo">
                         </div>
                         <div class="col " style="padding-left: 1rem; padding-top: 7rem;">
-                            <div class="card" >
-                            <div class="scroller">
-                                <p style="padding-top: 1rem; padding-bottom: 1rem;">A few studies on the matter have taken place over the last few years, one study we wanted to highlight is that of Google's API hardening technique.</p>
-                            <h5 class="underlined">Breif Overview:</h5>
-                                <p style="padding-bottom: 1rem; padding-top: 1rem;">Google is a well known tech company that is widely known for there vast search engine. There are many other technologies and tasks that happen every single day in the office and one problem Google tried to tackle was that of XSS attacks. Knowing that people around the world rely on their product they had to find a way to harden their cybersecurity force and came up with the idea of creating what they call, API Harding.    </p>
-                            <h5 class="underlined">Initial Preperation: </h5>
-                            <p style="padding-bottom: 1rem; padding-top: 1rem;">Before pouring tons of money into the development of this new technique, Google had to take the time to research past attacks and figure out what made them so vulnerable in the first place. Over two years of time and research was taken to get enough data on the topic prior to development.</p>
-                            <p>Google brought to the table in a conference meeting their findings and the new technique that would be later rolled out to all of their various development departments. </p>
-                            <p>Starting with <a class="text-primary" title="figureOne-link" data-bs-toggle="modal"
-                                data-bs-target="#figureOne">Figure one</a> Google begain breaking down the need for this new technique and tried to bring awarness to this ever growing threat.</p>
-                        </div>
+                            <div class="card">
+                                <div class="scroller">
+                                    <p style="padding-top: 1rem; padding-bottom: 1rem;">A few studies on the matter have
+                                        taken place over the last few years, one study we wanted to highlight is that of
+                                        Google's API hardening technique.</p>
+                                    <h5 class="underlined">Breif Overview:</h5>
+                                    <p style="padding-bottom: 1rem; padding-top: 1rem;">Google is a well known tech
+                                        company that is widely known for there vast search engine. There are many other
+                                        technologies and tasks that happen every single day in the office and one
+                                        problem Google tried to tackle was that of XSS attacks. Knowing that people
+                                        around the world rely on their product they had to find a way to harden their
+                                        cybersecurity force and came up with the idea of creating what they call, API
+                                        Harding. </p>
+                                    <h5 class="underlined">Initial Preperation: </h5>
+                                    <p style="padding-bottom: 1rem; padding-top: 1rem;">Before pouring tons of money
+                                        into the development of this new technique, Google had to take the time to
+                                        research past attacks and figure out what made them so vulnerable in the first
+                                        place. Over two years of time and research was taken to get enough data on the
+                                        topic prior to development.
+                                        Google brought to the table in a conference meeting their findings and the new
+                                        technique that would be later rolled out to all of their various development
+                                        departments.
+                                        Starting with <a class="text-primary" title="figureOne-link"
+                                            data-bs-toggle="modal" data-bs-target="#figureOne">Figure 1</a> Google
+                                        begain breaking down the need for this new technique and tried to bring awarness
+                                        to this ever growing threat.</p>
+                                    <h5 class="underlined">The Design:</h5>
+                                    <p>With extensive research done on the topic, Google found that many solutions to
+                                        the problem were solved at the later phases of the software development life
+                                        cycle. The problem with this approach is when an application gets so big its
+                                        hard to stay ontop of vulnerabilities as the functionality and complexity grows.
+                                        Another key problem these applications face are deadlines on specific aspects of
+                                        the developmental cycle. A developer will have to split their time on each part
+                                        of the bigger project making it hard for them to spend countless time testing
+                                        for bugs or security weakness. Only after an attack has been detected will a
+                                        developer have to go back to try to find this crack in the code. In responce to
+                                        this trend, Googles new approach confronts weakness at the very beginning stages
+                                        of web development starting with the compiler.</p>
+                                    <p style="margin-top: 1rem;">API Harding involves three key points to <a
+                                            class="text-primary" title="safeAPIs-link" data-bs-toggle="modal"
+                                            data-bs-target="#safeApis">Safe APIs</a> to help with mitigating potental
+                                        XSS threats: Safe Types, Safe Builders, and Safe Sinks.</p>
+
+                                    <h5 class="underlined" style="margin-top: 1rem;">Wide Adoption:</h5>
+                                    <p>The last step in the development phase was to test out the new software detection
+                                        on a larger scale. Over two years, Google began rolling out this program to all
+                                        departments making sure to exempt legacy violations so that exsisting code could
+                                        still compile and run while developers took to this new security enforcment.
+                                        They have developed acccompanying measures to help with this midigation to
+                                        ensure safe practices and answer any questions they may have. In addition,
+                                        Google created a "Bug Hunt" Program that actively takes outside sources to comb
+                                        through code to point out any missed security weaknesses to ensure a safer
+                                        enviroment. In most cases the compiler captures API hardening violations and
+                                        will try to automatically construct a fix and present it to the developer with
+                                        the error message. Developer feedback is also just as important to help improve
+                                        the user experience with this new policy and allows for them to bring up any
+                                        concerns or problems faced when implemented in their projects. </p>
+                                    <h5 class="underlined" style="margin-top: 1rem;">The Results:</h5>
+                                    <p>With manditory complile-time checks now in place, Google launched infasturcture
+                                        and data pipelines to monitor the company-wide adoption progress and the results
+                                        showed significat imporvements in the way developers handled XSS attacks prior
+                                        to deploment.</p>
+                                    <p style="margin-bottom: 3rem;">Below are a few results on the matter:</p>
+                                    <img src="../images/BannedSinks.gif" style="max-width: 300px;"
+                                        alt="Results-Image-1">
+                                    <li style="margin-bottom: 3rem; margin-top: 1rem;">The above image shows exempted
+                                        source files and banned XSS-Sinks for each quarter.</li>
+                                    <img src="../images/Dom-based XSS.gif" style="max-width: 300px;"
+                                        alt="Results-Image-2">
+                                    <li style="margin-top: 1rem; margin-bottom: 3rem;">The above image shows a single
+                                        product before and after adopting API Hardening.</li>
+                                    <img src="../images/adoption.gif" style="max-width: 300px;" alt="Results-Image-3">
+                                    <li style="margin-top: 1rem; margin-bottom: 3rem;">The above image shows that it is possible to adopt
+                                        this new technique while being cost affective. One major part of this adoption
+                                        is taking time to manually go through exsisitng code and revise it if a
+                                        developer feels as if the APIs are not expressive enough to meet there needs .
+                                    </li>
+                                    <h5 class="underlined">Conclusion: </h5>
+                                    <p>With the new technique created and implemented Google has taken a new approach on mitigating XSS attacks by creating API Hardening. Using this new software, developers can now have safe alternatives genrated for unsafe sinks. This also takes the approach of catching vulnerabilities at the early stages of the development cycle. Google has taken the liberty to make most of this program open sourced so that others can implement this into their own projects and has brought extensive research to the public for others to review.</p>
+                                    <p style="margin-top: 2rem;">If you are Intrested in more on this topic you can read the rest here:</p>
+                                    <a style="font-size: 20px; padding-bottom: 4rem;" href="../fileshare/If_Its_Not_Secure_It_Should_Not_Compile_Preventing_DOM-Based_XSS_in_Large-Scale_Web_Development_with_API_Hardening.pdf" download="API Harding">API Harding pdf</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p style="margin-top: 15rem;">This is just one approach to tackling XSS attacks. There are various other ways to solve this problem seeing how there are multiple ways for an attacker to infultrate a program. With research and development constantly being done we can even the odds!</P>
+                <p style="margin-top: 15rem;">This is just one approach to tackling XSS attacks. There are various other
+                    ways to solve this problem seeing how there are multiple ways for an attacker to infultrate a
+                    program. With research and development constantly being done we can even the odds!</P>
             </section>
-            <!-- additonal content section  -->
-            <section class=" space " id="addon" style="margin-bottom: 10rem;">
-                <h2 class="underlined Title" style="margin-top: 5rem;">Additional Content</h2>
-                <div class="container text-center">
-
-                    <div class="row">
-                        <div class="col">
-                            <div class="card" style="margin-top: 5rem;">
-                                <h3>More topics</h3>
-                                <p class="underline">Intrested in cybersecurity? Why not check out some other learning
-                                    enviroments and certifcations</p>
-                                <br></br>
-                                <ul class="centerIt fs-4 " style="margin-bottom: 5rem;">
-                                    <li><a href="https://www.hackerrank.com/domains/security" target="blank"
-                                            class="text-info">HackerRank security Challanges</a></li>
-                                    <li> <a href="https://www.eccouncil.org/" target="blank" class="text-info">EC
-                                            Council</a></li>
-                                    <li><a href="https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity"
-                                            target="blank" class="text-info">CISCO Intro to Cybersecurity</a></li>
-                                    <li><a href="https://www.coursera.org/professional-certificates/google-cybersecurity?utm_medium=sem&utm_source=gg&utm_campaign=B2C_NAMER_google-cybersecurity_google_FTCOF_professional-certificates_country-US&campaignid=20086358053&adgroupid=147458924814&device=c&keyword=cyber%20security%20certification&matchtype=b&network=g&devicemodel=&adposition=&creativeid=657336976318&hide_mobile_promo&gclid=Cj0KCQjwhL6pBhDjARIsAGx8D5-COEyEgec34Pcd5Lh-Zj5kOJoTCO4VJ1VeQCPWKGgU7wmDYVzGQdsaApSZEALw_wcB"
-                                            target="blank" class="text-info">Google Cybersecurity Professional
-                                            Certificate</a></li>
-
-                                </ul>
-
-                            </div>
-                        </div>
-                        <div class="col">
-                            <img src="../images/books.png" alt="Frozen in time" style="width:50%; margin-top: 7rem;">
-                        </div>
-                        <div class="col">
-                            <div class="card" style="margin-top: 5rem; ">
-                                <h3>More Videos</h3>
-                                <p class="underline">Why not check out some videos on all topics cybersecurity:</p>
-                                <br></br>
-                                <ul class="centerIt fs-4 " style="margin-bottom: 5rem;">
-                                    <li><a href="https://www.youtube.com/watch?v=A_ZRUWdz6EQ&list=PL2pczNDCqy8O7HYQ7XKBtUYlk2FPBKJpu"
-                                            target="blank" class="text-info">CISCO CyberOps</a></li>
-                                    <li> <a href="https://www.youtube.com/watch?v=yFC8pb2TPdc&list=PLIhvC56v63IIJZRa3lzK6IeBQOH_VFjUQ"
-                                            target="blank" class="text-info">Ethical Hacking</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=sesacY7Xz3c" target="blank"
-                                            class="text-info">Cybersecurity Architechure</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=qjrkV4RjgIU" target="blank"
-                                            class="text-info">Security for Developers</a></li>
-
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-            </section>
+           
             <!--  challange -->
             <h2 class="underlined" style="margin-top: 5rem;" id="firstC">The Challange</h2>
 
             <div class="container  centerDiv">
-                <p class="fs-4" style="margin-bottom: 5rem;"> For this challange you are tasked with detecting and defeating malicious code that tries to take your data but be <span class="text-danger boldly">WARNED</span> detective! Not every source can be <span class="boldly">trusted...</span> proceed with caution! 
+                <p class="fs-4" style="margin-bottom: 5rem;"> For this challange you are tasked with detecting and
+                    defeating malicious code that tries to take your data but be <span
+                        class="text-danger boldly">WARNED</span> detective! Not every source can be <span
+                        class="boldly">trusted...</span> proceed with caution!
                 </p>
                 <section class="container w-50 text-center" id="root">
                 </section>
@@ -386,36 +447,108 @@
         </div>
     </div>
 
-     <!-- Figure1 Modal -->
-     <div class="modal fade" id="figureOne" tabindex="-1" aria-labelledby="figureOne-Modal" aria-hidden="true">
+    <!-- Figure1 Modal -->
+    <div class="modal fade" id="figureOne" tabindex="-1" aria-labelledby="figureOne-Modal" aria-hidden="true">
         <div class="modal-dialog modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-4" id="exlabel" style="color: black;">Firgure One:</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <pre class="line-numbers" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4" id="exlabel" style="color: black;">Firgure One:</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <pre class="line-numbers">
                         <code class="language-javascript" >
-                            //This is an example of a known XSS vunerable script 
+                            //html
+                            //title: Search results 
+                            //body:
+                            //p: you are searching: span: id='kw' :span :p   
                             const untrustedInput = new URLSearchParams(location.search).get('kw');
                             const keyword = document.getElementById('kw');
+                            //Render kw to innerHTML
                             keyword.innerHtml = untrustedInput; //XSS
-                            //We would then render this to the DOM in the form of an HTML tag
+                            //:body
+                            //:html
                         </code>
                      </pre>
-                     <div class="scroller text-dark">
+                    <div class="scroller text-dark">
                         <h5 class="underlined Title" style="font-size: x-large ;">The Breakdown:</h5>
-                     </div>
+                        <p>The code in figure 1 illustrates a web based search application in concept. This example
+                            contains a client-side XSS vunerability at line 9, where Javascript code takes in the
+                            untrusted users input and renders it to the DOM as HTML markup. </p>
+                        <p>The problem with this approach is that there is no way to know what the user will put in here
+                            making it possible for attacks! A malicious site can exploit this vulnerability by posting a
+                            URL pointing back to the original site and when the user clicks on it, the URL is injected
+                            into the search page. Since in this example there is no sanitation or checks on what the
+                            user puts in. Perpetrators can insert any content they choose including JavaScript code that
+                            can then be executed inside the context of the site the user is on. When this occurs, the
+                            capability of the malicious code is no longer restricted by the original security-policy in
+                            place and now the infiltrators have unlimited access to the site. What happens next is
+                            completely up to them and what they plan to take from the unsuspecting user.</p>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- SafeAPIs Modal -->
+<div class="modal fade" id="safeApis" tabindex="-1" aria-labelledby="SafeAPIs" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-4" id="exlabel" style="color: black;">Safe APIs:</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="scroller text-dark">
+                    <h5 class="underlined Title" style="font-size: x-large ;">What are Safe APIs?</h5>
+                    <p>With XSS-prone APIs identified and forbidden in the development cycle, Google needed to come up with a set of "Hardened" APIs not known to be vulnerable. In order for a API to be considered "Safe" it has to have met the three critera first:                     </p>
+                   <ol style="width: fit-content; margin: auto; padding-bottom: 5rem; padding-top: 2rem;">
+                    <li><a href="#safeTypes">Safe Type</a></li>
+                    <li><a href="#safeBuilders">Safe Builders</a></li>
+                    <li><a href="#safeSinks">Safe Sinks</a></li>
+                   </ol>
+                   <!-- safe types ex -->
+                   <h5 class="underlined Title" style="font-size: x-large ;" id="safeTypes">What are Safe Types?</h5>
+                   <p> There are a total of six safe types to cover a majority of attacks known in JavaScript and DOM manipulation. Each safe type corresponds to a type of sink. Values of safe types are immutable once created and are better known as the wrappers of primative strings. The internals of safe types are hidden from developers and in TypeScript, we mark them as private properties. In Javascript, Google implemented additional compile-time checks to forbid any code from accessing these private properties. These properties also prevent safe types from being confuesed with other user-made types.</p>
+                   <img src="../images/Safetypes.gif" style=" margin-left: 10rem; padding-top: 2rem; padding-bottom: 5rem;" 
+                   alt="Safetypes-Image">
+                   <!-- safe builders ex -->
+                   <h5 class="underlined Title" style="font-size: x-large ;" id="safeBuilders">What are Safe Builders?</h5>
+                   <p style="padding-bottom: 4rem;">Builders of safe values are essentially the core security checkpoint for the API Hardening technique. Generally, safe values are secure from sensative DOM sinks due to the static checks in place and APIs ensure they can only be created in ways known to be secure. There are a total of four ways to constuct safe values:</p>
+                   <p style=" padding-bottom: 2rem;"><span style="font-style: italic; ">Build from literal values:</span> These values are hard coded by developers and cannot be manipulated by attackers. These can then be safely converted to safe type. One note to know is that literal values are not inhearently secure, only by making the proper checks and making it secure is it safe.</p>
+                   <p style=" padding-bottom: 2rem;"><span style="font-style: italic;">Build by sanitizing:</span> Google created built in sanitizers to automatically fix untrustworthy strings into safe-to-render HTML markup or safe-to-follow URLs, removing the known XSS vunerability.</p>
+                   <p style=" padding-bottom: 2rem;"><span style="font-style: italic;">Build from template:</span> Building from a template can be seen as a combination of building from constants and  building from sanitizing. The bulk of the template is static while some parts can be configured with run-time values.</p>
+                   <p style=" padding-bottom: 2rem;"><span style="font-style: italic;">Build from manually reviewed sources:</span> If all else fails and none of the previous options listed before suit your need a developer can use this last method to case any value as a safe value. This is a backdoor technique in the safe API design, however they enforce review requirements by making the developer classify them as prohibited XSS sinks and add them to the exemption list.</p>
+                   <!-- safe sinks ex -->
+                   <h5 class="underlined Title" style="font-size: x-large ;" id="safeSinks">What are Safe Sinks?</h5>
+                   <div class="row">
+                    <div class="col">
+                        <img src="../images/Safesink.gif" style=" margin:auto; padding-top: 2rem; padding-bottom: 5rem; max-width: 400px;" 
+                   alt="Safesink-Example-Image">
+                    </div>
+                    <div class="col">
+                        <p style="padding-top: 8rem;"> The accompanying image is an example of an original version of an API and the new Hardened version of a Safe sink in TypeScript. In hindsight, safe sinks are the hardened version of XSS-prone JavaScript and DOM APIs. Typically, safe sinks are type-safe wrappers of the original APIs. If this sink does not have a safe-type associated with the values given at the time of execution it will be void instead and not run.    </p>
+                    </div>
+                   
+                   </div>
+                </div>
 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+</div>
+
+
 
     <br></br>
     <!-- footer -->
@@ -443,7 +576,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-        <script src="../javascript/prism.js"></script>
+    <script src="../javascript/prism.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./public/javascript/index.js"></script>
 </body>
