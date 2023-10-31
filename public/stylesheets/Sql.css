@@ -22,7 +22,7 @@
   }
   
 .phone{
-    background-image: url(../images/internal.avif);
+    background-image: url(../images/nvg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -75,7 +75,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .glass2{
-    background: rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.01);
 border-radius:0px;
 padding: 40px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -147,5 +147,35 @@ font-size: larger;
     scroll-snap-type: y mandatory;
   }
   
-
   
+  .neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+
+      animation: flicker 5.5s infinite alternate;
+  }
+
+  @keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+  }
