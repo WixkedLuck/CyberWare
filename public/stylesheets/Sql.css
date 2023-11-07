@@ -133,6 +133,7 @@ font-size: larger;
     border-color: #3D4450;
     box-shadow: 20px 20px 60px #23262E,
     -20px -20px 60px #4e697d;
+
 }
 
 
@@ -146,7 +147,9 @@ font-size: larger;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
   }
-  
+  .max{
+    width: 300px;
+  }
   
   .neonText {
     color: #fff;
