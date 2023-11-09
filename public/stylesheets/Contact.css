@@ -1,0 +1,83 @@
+
+.phone{
+    background-image: url(../images/contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-attachment: fixed;
+  
+  height: 200vh;
+}
+
+.topLayer{
+    margin-top: 20rem;
+}
+
+.space{
+    margin: 5rem;
+    /* margin-bottom: 15rem; */
+    padding-top: 5rem;
+}
+.glass{
+    margin-top: 10rem;
+    
+    background: rgba(255, 255, 255, 0.07);
+border-radius: 16px;
+padding: 40px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.6px);
+-webkit-backdrop-filter: blur(3.6px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.underlined{
+    text-align: center;
+    border-bottom: #4e697d  2px solid;
+    width: 100%;
+}
+.resized{
+    font-size: 36px;
+    width:auto;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: #4e697d  ;
+}
+
+.glass2{
+    background: rgba(255, 255, 255, 0.16);
+border-radius:0px;
+padding: 40px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.6px);
+-webkit-backdrop-filter: blur(3.6px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.boldly{
+color: gold;
+font-weight: bold;
+font-size: larger;
+}
+
+.center{
+    width: auto !important; 
+
+}
+
+.text-info:hover{
+    color:whitesmoke !important;
+}
+
+textarea{
+    width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box; 
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
