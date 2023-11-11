@@ -5,11 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Malware</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
-    <link rel="manifest" href="../../site.webmanifest">
+    <title>NewsFeed</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display&display=swap" rel="stylesheet">
@@ -25,7 +21,7 @@
     <nav class="navbar navbar-expand-lg  ">
         <div class="container-fluid ">
 
-            <h1 class="navbar-brand  text-light" > <i class="fa-solid fa-shield-cat"></i>CyberWare
+            <h1 class="navbar-brand  text-light" href="./AboutUs.html"> <i class="fa-solid fa-shield-cat"></i>CyberWare
             </h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,32 +30,32 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
 
-                    <a class="nav-link active d-flex text-light" href="../../index.html">About</a>
-                    <a class="nav-link  d-flex text-light active" href="../pages/LearningCenter.html">Learning Center</a>
+                    <a class="nav-link active d-flex text-light" href="../../AboutUs.html">About</a>
+                    <a class="nav-link  d-flex text-light active" href="../pages/NewsFeed.html">Learning Center</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" id="pages" href="./public/pages/NewsFeed.html"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Pages
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./MobileMaleware.html">Mobile Malare</a>
+                            <li><a class="dropdown-item" href="./IntroCS.html">Intro to Cybersecurity</a>
+                            </li>
+                            <li><a class="dropdown-item" href="./SqlInjections.html">Sql injections</a>
                             </li>
                             <li><a class="dropdown-item" href="./Firewall.html">Firewall Exploits</a></li>
-                            <!-- <li><hr class="dropdown-divider"></li> -->
-                            <li><a class="dropdown-item" href="./XSS.html">Dangers of XSS</a></li>
+
+                            <li><a class="dropdown-item" href="./XSS.html">XSS Attacks</a></li>
                         </ul>
                 </div>
 
             </div>
             <div>
                 <a class="fa-solid fa-headset icons" href="./email.html" title="Contact Us"></a>
-                <a class="fa-solid fa-gears icons" title="Settings" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                </a>
+                <a class="fa-solid fa-envelopes-bulk icons" title="Inbox"></a>
             </div>
         </div>
 
-        <!-- <comment -->
+
 
     </nav>
     <br></br>
@@ -82,7 +78,7 @@
 
                         <a class="nav-link active d-flex text-light " href="#Intro">Introduction</a>
                         <a class="nav-link active d-flex text-light tile" href="#Exp">Types of Mobile Malware</a>
-                        <a class="nav-link  d-flex text-light active tile" href="#firstC">The Challange</a>
+                        <a class="nav-link  d-flex text-light active tile" href="#firstC">First Challenge</a>
 
 
                     </div>
@@ -97,24 +93,37 @@
         <div class=" ">
 
             <h2 class="subTitle" id="Intro">Introduction:</h2>
-            <p class="card-body"> Our website is designed with education in mind and we hope you will enjoy the
-                different activies we have set up for you to explore a few topics in cyber security. We created this
-                website with intentions to help educate users that may not know much about a topic or set of topics. As
-                the internet and technology continues to grow, there is an ever growing importance of protecting data.
-                It is crutical because it helps to protect organizations and individuals from cyber attacks. Taking the
-                time to learn more could be the difference, Start now
+            <p class="card-body"> 
+                
+                <p>Mobile malware comes in many forms. Some malware sits in the background and reads data about what the user is doing with their phone. <br>
+                Others actively attack the device in question by running malicious scripts such as bitcoin mining, or running malicious advertisements on the users device. <br>
+                Some mobile malware uses the device's privilege to access networks that would otherwise be blocked by a firewall or other security measures. <br>
+                Since the device is being controlled has access to a secured network, if the affected device isn't able to detect the issue,<br> the network will allow the trusted computer access to the network.</p>
+                <br>
+
+                <p>Mobile malware is diverse in how it can infect a target device. <br>
+                Most malware is downloaded accidentally, such as through fake download links on websites with bad advertisements. <br>
+                These are installed by the user because they pretend to be something the user actually wanted to download and use. <br>
+                Other mobile malware can be downloaded by visiting a malicious link. <br>
+                These downloads happen quickly, because the link automatically starts the download process after clicking on the link,<br> often with the user being unaware until the download is well on it’s way and sometimes in the background.</p>
+                <br>
+
+                <p>Mobile malware can also be downloaded because of phishing techniques. <br>
+                These trick the user into giving the bad actor password or fingerprint information,<br> which is then used to login to the device or account and then act from there. <br>
+                Many times users will not know that their device is compromised because they believed that they were actually protecting their device,<br> or was doing something innocuous that won’t cause any harm.</p>
+                <br>
+
+                <p>While mobile malware can be dangerous, there are some ways to protect against it to keep your device safe. <br>
+                Old versions of apps can have vulnerabilities that can be exploited to gain access to your device. <br>
+                Many of these flaws are patched up in future updates, so keeping your apps up to date is an important security measure. <br>
+                The google play store and the apple store both have vetted software. <br>
+                It is not completely impossible to find a virus on these official app stores, but it is highly unlikely and they often remove them. <br>
+                You can also use mobile security software that will scan your phone in the background to remove many common threats. <br>
+                A firewall is an additional layer of security, along with making sure that you have a lock set up on your phone.</p>
+                
             </p>
             <br></br>
 
-            <h2 class="subTitle">Introduction:</h2>
-            <p class="card-body"> Our website is designed with education in mind and we hope you will enjoy the
-                different activies we have set up for you to explore a few topics in cyber security. We created this
-                website with intentions to help educate users that may not know much about a topic or set of topics. As
-                the internet and technology continues to grow, there is an ever growing importance of protecting data.
-                It is crutical because it helps to protect organizations and individuals from cyber attacks. Taking the
-                time to learn more could be the difference, Start now
-            </p>
-            <br></br>
             <!-- next section -->
             <h3 class="underlined" id="Exp">Examples of Mobile Malware</h3>
             <br></br>
@@ -195,45 +204,50 @@
             </div>
 
         </div>
-        <br></br>
-        <h3 class="underlined">The Challange</h3>
-        <div class="container  centerDiv">
-            <p class="fs-4"> For this challange you are tasked with being the <span class="boldly">Virus </span>your
-                goal is to make it to the end undetected. However many walls of <span class="boldly">Antivirus
-                </span>are blocking your way...Will you succeed or be detected first
-            </p>
 
+<br></br>
+    </section>
+
+    <iframe width="1280" height="720"
+src="https://www.youtube.com/embed/s-NfumQCiVE">
+</iframe>
+
+    <section class="glass2 space " id="firstC">
+        <h3 class="underlined">First Challenge</h3>
+        <div class="container  centerDiv">
+            <p class="fs-4"> For this challenge you are tasked with being the  <span class="boldly">Antivirus! </span>Your goal is to make it to the end. However, you will need to avoid
+                 <span class="boldly">viruses, phishing attempts, trojans and other malware </span> with the appropriate tools for the job.
+            </p>
+            
             <br></br>
         </div>
-
-        <br></br>
     </section>
-    <!-- section with astronot -->
-    <section class=" space " id="firstC">
+
+    <section class=" space ">
 
         <div class="container text-center">
             <div class="row">
                 <div class="col">
-                    <img src="../images/astronot.gif" alt="Frozen in time">
+                    <img src="../images/antivirus-fight-with-hackers.svg" style="max-width: 80% ;" alt="Defenders">
                 </div>
                 <div class="col">
                     <div class="glass2">
                         <h3>Great Job!</h3>
                         <p class="underline">Why not check out some other modules?</p>
                         <br></br>
-                        <ul class="centerIt fs-4">
-                            <li><a href="./" class="text-info">Intro to Cybersecurity</a></li>
-                            <li> <a href="./XSS.html" class="text-info">Dangers of XSS</a></li>
-                            <li><a href="./" class="text-info">SQL Injection Attacks</a></li>
+                        <ul class="centerIt fs-4 custom">
+                            <li> <a href="./IntroCS.html" class="text-info">Intro to Cybersecurity</a></li>
+                            <li><a href="./SqlInjections.html" class="text-info">Sql Injections</a></li>
+                            <li><a href="./XSS.html" class="text-info">XSS Attacks</a></li>
                             <li><a href="./Firewall.html" class="text-info">Firewall Exploits</a></li>
-                            
+
                         </ul>
 
                     </div>
                 </div>
             </div>
     </section>
-
+  
     <!-- footer -->
     <footer class="card w-100 centerDiv centerIt footer">
         <div class="card-body">
@@ -250,26 +264,7 @@
     </footer>
 
 
-    <!-- Settings Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content " style="background-color: #3D4450;">
-                <div class="modal-header" >
-                    <h1 class="modal-title fs-4" id="exampleModalLabel" >Settings:</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body" style="margin: auto;">
-                    <button class="btn-primary  fa-solid fa-eraser icons " id="History"  style="font-size: 12px;"> Erase all Data</button>
-                    <button class="btn-primary fa-solid fa-lightbulb icons "  style="font-size: 12px;" title="Light/Dark Mode"> Change
-                        Mode</a>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 
