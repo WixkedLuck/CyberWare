@@ -1,3 +1,5 @@
+var ClearHistory=document.querySelector('#History');
+
 // Function to handle form submission
 document.getElementById("login-form").addEventListener("submit", function (event) {
   // Prevent default 
@@ -129,3 +131,9 @@ function validateUser2AndUser3(username, password) {
 
   return null; 
 }
+
+//clear history btn
+ClearHistory.addEventListener('click',function () {
+  localStorage.clear();
+  location.reload();
+})

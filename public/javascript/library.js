@@ -1,3 +1,5 @@
+var ClearHistory=document.querySelector('#History');
+
 const hoverOver = document.getElementById('btnOne');
 const hoverOver1 = document.getElementById('btnTwo');
 const hoverOver2 = document.getElementById('btnThree');
@@ -59,3 +61,9 @@ hoverOver4.addEventListener('mouseover', function () {
     delay(1000).then(() => hoverOver4.classList.remove('animate__animated', 'animate__rubberBand'));
 
 });
+
+//clear history btn
+ClearHistory.addEventListener('click',function () {
+    localStorage.clear();
+    location.reload();
+  })
