@@ -1,19 +1,10 @@
-var ClearHistory=document.querySelector('#History');
-
-//clear history btn
-ClearHistory.addEventListener('click',function () {
-    localStorage.clear();
-    location.reload();
-  })
-
-
-  function handlechange(){
+function handlechange(){
     console.log("clicky");
       localStorage.setItem(pageKey, 'Finished');
  }
  
  //  create a unique key for this page
-   const pageKey = 5;
+   const pageKey = 3;
  
    // Check if the status is already stored in localStorage for this page
    const status = localStorage.getItem(pageKey) || 'Not Started';
@@ -22,3 +13,4 @@ ClearHistory.addEventListener('click',function () {
    localStorage.setItem(pageKey, 'In Progress');
     
      // console.log(`Page Status for ${pageKey}: ${status}`);
+ 

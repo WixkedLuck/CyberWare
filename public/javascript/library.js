@@ -67,3 +67,42 @@ ClearHistory.addEventListener('click',function () {
     localStorage.clear();
     location.reload();
   })
+  const pageKey = "1";
+  let status2 = localStorage.getItem(pageKey) || 'Not Started';
+
+displayAllStatuses()
+  function displayAllStatuses() {
+    // Iterate over localStorage keys
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        const status = localStorage.getItem(key);
+        
+        // Update the corresponding card with the status
+        const cardId = `${key}Card`; 
+        const cardElement = document.getElementById(cardId);
+
+        if (cardElement) {
+            
+            cardElement.innerText = ` ${status}`;
+            if(cardElement.innerText==="In Progress"){
+                cardElement.style.color ='yellow';
+            }else if(cardElement.innerText==="Finished"){
+            cardElement.style.color ='green';
+            }
+       
+        }
+      
+    }
+    
+    // if(localStorage.length==0){
+    //     for (let i = 0; i < 6; i++) {
+    //         const cardId = `${i}Card`;
+    //     const cardElement = document.getElementById(cardId);
+    //     if (cardElement) {
+    //    cardElement.innerText ="Not Started";
+    //    cardElement.style.color="red";
+    // }
+    //     }
+    // }
+}
+

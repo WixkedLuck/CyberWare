@@ -22,7 +22,7 @@
   }
   
 .phone{
-    background-image: url(../images/internal.avif);
+    background-image: url(../images/gundum.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -96,7 +96,8 @@ font-size: larger;
 }
 
 .text-info:hover{
-    color:whitesmoke !important;
+    color:black !important;
+    font-weight: bolder;
 }
 
 .list-group-item{
