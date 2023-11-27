@@ -389,15 +389,19 @@
             <h2 class="underlined" style="margin-top: 5rem;" id="firstC">The Challange</h2>
 
             <div class="container  centerDiv">
-                <p class="fs-4" style="margin-bottom: 5rem;"> For this challange you are tasked with detecting and
-                    defeating malicious code that tries to take your data but be <span
-                        class="text-danger boldly">WARNED</span> detective! Not every source can be <span
-                        class="boldly">trusted...</span> proceed with caution!
+                <p class="fs-4" style="margin-bottom: 5rem;"> For this challange you are tasked with indentifying key words discussed in this module. Why not test your knowledge
                 </p>
-                <section class="container w-50 text-center" id="root">
+                <section class="container w-50 text-center " id="gameContainer">
+                    <div id="word"> </div>
+                    <div id="message"> </div>
+                    <div id="guessedLetters"> </div>
+                    <div id="hint"> </div>
+                    <input type="text" id="inputBox" placeholder="Enter A Letter"><br></br>
+                    <button class="btn-primary btn"onclick="checkGuess()" id="subbtn">Submit Guess</button>
+                    <button class="btn-primary btn" onclick="resetGame()">Reset Game</button>
+            
                 </section>
-                <section class="container w-50 text-center" id="feedback">
-                </section>
+                
                 <br></br>
 
             </div>

@@ -149,4 +149,23 @@ font-size: larger;
   }
   
 
-  
+  #word {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#message {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#inputBox {
+    margin-top: 20px;
+    
+}
+#guessedLetters {
+    font-size: 18px;
+    margin-top: 20px;
+}
+#hint {
+    font-size: 18px;
+    margin-top: 20px;
+}
