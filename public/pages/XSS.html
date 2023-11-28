@@ -98,7 +98,7 @@
                     <a class="nav-link active d-flex text-light " href="#Intro">Introduction</a>
                     <a class="nav-link active d-flex text-light tile" href="#Exp">Cross-Site Scripting</a>
                     <a class="nav-link active d-flex text-light tile" href="#fight">The Fight</a>
-                    <a class="nav-link  d-flex text-light active tile" href="#firstC">The Challange</a>
+                    <a class="nav-link  d-flex text-light active tile" href="#firstC">The Challenge</a>
 
 
                 </div>
@@ -129,8 +129,8 @@
                     <ul class="centerIt fs-5">
                         <p>
                             - Cross-site scripting, better known as XSS is an attack in which an attacker injects
-                            malicious executable scripts into the code of a trusted source. Typically this code can run
-                            without the need of server side rendering.
+                            malicious executable scripts into the code of a trusted source. Typically, this code can run
+                            without the need of server-side rendering.
                         </p><br></br>
                         <p>
                             - With tons of efforts spent on its mitigation, Cross-site scripting (XSS) remains one of
@@ -204,9 +204,9 @@
             <h2 class="subTitle centerIt space2">Known XSS Attacks:</h2>
             <p class="card-body " style="margin-top: 2rem; margin-left:10rem; margin-right: 10rem;">Cross-site scripting
                 attacks are a type of injection with malicious scripts placed into trusted sites. For this to occur
-                generally, the attacker will send browser side script code to a different end user whch inturn the
+                generally, the attacker will send browser side script code to a different end user which in turn the
                 unsuspecting user's browser has no way to know if this is a trusted source or not and executes it
-                anyways. With this in mind, there have been enough attacks done to create different categies (although
+                anyways. With this in mind, there have been enough attacks done to create different categories (although
                 not all can be classified since there is always an ongoing effort to combat these attacks and can change
                 overtime) these are just a few of the known types:
             </p><br></br>
@@ -239,7 +239,7 @@
                     <div class="col">
                         <div class="card-header" style="margin-bottom: 3rem; margin-top: 3rem;">
                             <p>Document Object Model (DOM) based attacks are those that enables attackers to inject
-                                malicious payload into a webpage that inturn maniplates the client sides browser
+                                malicious payload into a webpage that in turn manipulates the client sides browser
                                 enviroment.</p>
                         </div>
                         <div class="card">
@@ -248,14 +248,14 @@
                                 </h5>
                                 <p style="margin-top: 1rem; margin-bottom: 1rem;">So what do we mean by this? Well these
                                     attacks can change the HTML source code without the need to communicate with the
-                                    server. This type of attack is orchestrated on the client-side after the intial
+                                    server. This type of attack is orchestrated on the client-side after the initial
                                     loading of the page. Since the malicious input is stored within the client's browser
-                                    enviroment the attack cannot be detected using traditional methods of analysis. </p>
+                                    environment the attack cannot be detected using traditional methods of analysis. </p>
                                 <h5 class="underlined">How can we prevent this type of attack?</h5>
                                 <p style="margin-top: 1rem; margin-bottom: 1rem;">Just like the attacks before, the goal
-                                    is to get infromation on you. DOM-based vulnerabilities allow adversaries to
+                                    is to get information on you. DOM-based vulnerabilities allow adversaries to
                                     steal/modify legitimate users' data such as cookies or session tokens to access your
-                                    sensative data.</p>
+                                    sensitive data.</p>
                                 <p style="margin-bottom: 2rem;">Some ways to help prevent these attacks are as follows:
                                 </p>
                                 <ul style="width: fit-content; margin: auto;">
@@ -270,8 +270,8 @@
                                 <p style="margin-bottom: 1rem;">While these attacks are solely on the client-side of
                                     websites, the vulnerability starts on the server-side. Therefore, it is important
                                     for developers to take action to try to prevent these attacks as this could be
-                                    senstive customer data leaked to the attacker which in turn could make your company
-                                    lose repuation and trust.</p>
+                                    sensitive customer data leaked to the attacker which in turn could make your company
+                                    lose reputation and trust.</p>
 
                             </div>
                         </div>
@@ -299,7 +299,7 @@
                                     <p style="padding-top: 1rem; padding-bottom: 1rem;">A few studies on the matter have
                                         taken place over the last few years, one study we wanted to highlight is that of
                                         Google's API hardening technique.</p>
-                                    <h5 class="underlined">Breif Overview:</h5>
+                                    <h5 class="underlined">Brief Overview:</h5>
                                     <p style="padding-bottom: 1rem; padding-top: 1rem;">Google is a well known tech
                                         company that is widely known for there vast search engine. There are many other
                                         technologies and tasks that happen every single day in the office and one
@@ -307,7 +307,7 @@
                                         around the world rely on their product they had to find a way to harden their
                                         cybersecurity force and came up with the idea of creating what they call, API
                                         Harding. </p>
-                                    <h5 class="underlined">Initial Preperation: </h5>
+                                    <h5 class="underlined">Initial Preparation: </h5>
                                     <p style="padding-bottom: 1rem; padding-top: 1rem;">Before pouring tons of money
                                         into the development of this new technique, Google had to take the time to
                                         research past attacks and figure out what made them so vulnerable in the first
@@ -318,44 +318,44 @@
                                         departments.
                                         Starting with <a class="text-primary" title="figureOne-link"
                                             data-bs-toggle="modal" data-bs-target="#figureOne">Figure 1</a> Google
-                                        begain breaking down the need for this new technique and tried to bring awarness
+                                        began breaking down the need for this new technique and tried to bring awareness
                                         to this ever growing threat.</p>
                                     <h5 class="underlined">The Design:</h5>
                                     <p>With extensive research done on the topic, Google found that many solutions to
                                         the problem were solved at the later phases of the software development life
                                         cycle. The problem with this approach is when an application gets so big its
-                                        hard to stay ontop of vulnerabilities as the functionality and complexity grows.
+                                        hard to stay on top of vulnerabilities as the functionality and complexity grows.
                                         Another key problem these applications face are deadlines on specific aspects of
                                         the developmental cycle. A developer will have to split their time on each part
                                         of the bigger project making it hard for them to spend countless time testing
                                         for bugs or security weakness. Only after an attack has been detected will a
-                                        developer have to go back to try to find this crack in the code. In responce to
+                                        developer have to go back to try to find this crack in the code. In response to
                                         this trend, Googles new approach confronts weakness at the very beginning stages
                                         of web development starting with the compiler.</p>
                                     <p style="margin-top: 1rem;">API Harding involves three key points in creating <a
                                             class="text-primary" title="safeAPIs-link" data-bs-toggle="modal"
-                                            data-bs-target="#safeApis">Safe APIs</a> to help with mitigating potental
+                                            data-bs-target="#safeApis">Safe APIs</a> to help with mitigating potential
                                         XSS threats: Safe Types, Safe Builders, and Safe Sinks.</p>
 
                                     <h5 class="underlined" style="margin-top: 1rem;">Wide Adoption:</h5>
                                     <p>The last step in the development phase was to test out the new software detection
                                         on a larger scale. Over two years, Google began rolling out this program to all
-                                        departments making sure to exempt legacy violations so that exsisting code could
-                                        still compile and run while developers took to this new security enforcment.
-                                        They have developed acccompanying measures to help with this midigation to
+                                        departments making sure to exempt legacy violations so that existing code could
+                                        still compile and run while developers took to this new security enforcement.
+                                        They have developed accompanying measures to help with this mitigation to
                                         ensure safe practices and answer any questions they may have. In addition,
                                         Google created a "Bug Hunt" Program that actively takes outside sources to comb
                                         through code to point out any missed security weaknesses to ensure a safer
-                                        enviroment. In most cases the compiler captures API hardening violations and
+                                        environment. In most cases the compiler captures API hardening violations and
                                         will try to automatically construct a fix and present it to the developer with
                                         the error message. Developer feedback is also just as important to help improve
                                         the user experience with this new policy and allows for them to bring up any
                                         concerns or problems faced when implemented in their projects. </p>
                                     <h5 class="underlined" style="margin-top: 1rem;">The Results:</h5>
-                                    <p>With manditory complile-time checks now in place, Google launched infasturcture
+                                    <p>With With mandatory compile-time checks now in place, Google launched infrastructure
                                         and data pipelines to monitor the company-wide adoption progress and the results
-                                        showed significat imporvements in the way developers handled XSS attacks prior
-                                        to deploment.</p>
+                                        showed significant improvements  in the way developers handled XSS attacks prior
+                                        to deployment.</p>
                                     <p style="margin-bottom: 3rem;">Below are a few results on the matter:</p>
                                     <img src="../images/BannedSinks.gif" style="max-width: 300px;"
                                         alt="Results-Image-1">
@@ -368,28 +368,28 @@
                                     <img src="../images/adoption.gif" style="max-width: 300px;" alt="Results-Image-3">
                                     <li style="margin-top: 1rem; margin-bottom: 3rem;">The above image shows that it is possible to adopt
                                         this new technique while being cost affective. One major part of this adoption
-                                        is taking time to manually go through exsisitng code and revise it if a
-                                        developer feels as if the APIs are not expressive enough to meet there needs .
+                                        is taking time to manually go through existing code and revise it if a
+                                        developer feels as if the APIs are not expressive enough to meet there needs.
                                     </li>
                                     <h5 class="underlined">Conclusion: </h5>
-                                    <p>With the new technique created and implemented Google has taken a new approach on mitigating XSS attacks by creating API Hardening. Using this new software, developers can now have safe alternatives genrated for unsafe sinks. This also takes the approach of catching vulnerabilities at the early stages of the development cycle. Google has taken the liberty to make most of this program open sourced so that others can implement this into their own projects and has brought extensive research to the public for others to review.</p>
-                                    <p style="margin-top: 2rem;">If you are Intrested in more on this topic you can read the rest here:</p>
-                                    <a style="font-size: 20px; padding-bottom: 4rem;" href="../fileshare/If_Its_Not_Secure_It_Should_Not_Compile_Preventing_DOM-Based_XSS_in_Large-Scale_Web_Development_with_API_Hardening.pdf" download="API Harding">API Harding pdf</a>
+                                    <p>With the new technique created and implemented Google has taken a new approach on mitigating XSS attacks by creating API Hardening. Using this new software, developers can now have safe alternatives generated for unsafe sinks. This also takes the approach of catching vulnerabilities at the early stages of the development cycle. Google has taken the liberty to make most of this program open sourced so that others can implement this into their own projects and has brought extensive research to the public for others to review.</p>
+                                    <p style="margin-top: 2rem;">If you are interested in more on this topic you can read the rest here:</p>
+                                    <a style="font-size: 20px; padding-bottom: 4rem;" href="../fileshare/If_Its_Not_Secure_It_Should_Not_Compile_Preventing_DOM-Based_XSS_in_Large-Scale_Web_Development_with_API_Hardening.pdf" target="_blank" download="API Harding">API Harding pdf</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <p style="margin-top: 15rem;">This is just one approach to tackling XSS attacks. There are various other
-                    ways to solve this problem seeing how there are multiple ways for an attacker to infultrate a
+                    ways to solve this problem seeing how there are multiple ways for an attacker to infiltrate a
                     program. With research and development constantly being done we can even the odds!</P>
             </section>
            
             <!--  challange -->
-            <h2 class="underlined" style="margin-top: 5rem;" id="firstC">The Challange</h2>
+            <h2 class="underlined" style="margin-top: 5rem;" id="firstC">The Challenge</h2>
 
             <div class="container  centerDiv">
-                <p class="fs-4" style="margin-bottom: 5rem;"> For this challange you are tasked with indentifying key words discussed in this module. Why not test your knowledge
+                <p class="fs-4" style="margin-bottom: 5rem;"> For this challenge you are tasked with  identifying  key words discussed in this module. Why not test your knowledge
                 </p>
                 <section class="container w-50 text-center " id="gameContainer">
                     <div id="word"> </div>
