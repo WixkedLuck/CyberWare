@@ -17,81 +17,495 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../stylesheets/style-home.css">
     <link rel="stylesheet" href="../stylesheets/NewsFeed.css">
+    <link rel="stylesheet" href="../stylesheets/Firewall.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg sticky-top ">
-    <div class="container-fluid ">
-       
-        <h1 class="navbar-brand text-light" href="./index.html"> <i class="fa-solid fa-shield-cat"></i> CyberWare
-        </h1>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+<body class="phone">
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid ">
 
-              <a class="nav-link active d-flex text-light" href="../../index.html">About</a>
-                <a class="nav-link active d-flex text-light" href="./LearningCenter.html">Learning Center</a>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" id="pages" href="./public/pages/NewsFeed.html" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Pages
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./IntroCS.html">Intro to Cybersecurity</a>
-                        </li>
-                        <li><a class="dropdown-item" href="./XSS.html">Dangers of XSS</a></li>
-                        <li><a class="dropdown-item" href="./SqlInjections.html">SQL Injections</a></li>
-                        <li><a class="dropdown-item" href="./MobileMaleware.html">Mobile Malware</a></li>
-                        
-                        
-                        
-                    </ul>
+            <h1 class="navbar-brand  text-light" href="./index.html"> <i class="fa-solid fa-shield-cat"></i>CyberWare
+            </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+
+                    <a class="nav-link active d-flex text-light" href="../../index.html">About</a>
+                    <a class="nav-link  d-flex text-light active" href="../pages/LearningCenter.html">Learning
+                        Center</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" id="pages" href="./public/pages/NewsFeed.html"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./IntroCS.html">Intro to Cybersecurity</a>
+                            </li>
+                            <li><a class="dropdown-item" href="./MobileMaleware.html">Mobile Malware</a>
+                            </li>
+                            <li><a class="dropdown-item" href="./XSS.html">XSS Attacks</a></li>
+
+                            <li><a class="dropdown-item" href="./SqlInjections.html">SQL Injection Attacks</a></li>
+                        </ul>
+                </div>
+
+            </div>
+            <div>
+                <a class="fa-solid fa-headset icons" href="./email.html" title="Contact Us"></a>
+                <a class="fa-solid fa-gears icons" title="Settings" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                </a>
+
             </div>
         </div>
-        <div>
-            <a class="fa-solid fa-headset icons" href="./email.html" title="Contact Us"></a>
-            <a class="fa-solid fa-gears icons" title="Settings" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">
-            </a>
+
+        <!-- <comment -->
+
+    </nav>
+
+    <div class="content text-center glass">
+        <div class="centerDiv row ">
+
+            <div class="col ">
+                <h1 class='Title  space underline centerIt gradient-text '
+                    style=" font-size: 30px; font-weight: bolder;"><i class="fa-brands fa-free-code-camp"></i> Firewall
+                    Exploits <i class="fa-brands fa-free-code-camp"></i> </h1>
+
+            </div>
+            <div class="col space">
+
+            </div>
         </div>
+
+
     </div>
-    
-</nav>
-<br></br>
-<h1>Firewall</h1>
-<br></br>
-<!-- footer -->
-<div class="card w-100 centerDiv centerIt footer">
-  <div class="card-body">
-    <h5 class="card-title">Nice! you made it to the bottom...</h5>
-    <p class="card-text">Additional Content:</p>
-    <div>
-      <a class=" fa-brands fa-linkedin icons " href="https://www.linkedin.com/in/david-a-hybner/"
-          target="blank"></a>
-          <a class=" fa-solid fa-school icons " href="https://www.vsu.edu/"
-          target="blank"></a>
-      <a class="fa-brands fa-github-alt icons" href="https://github.com/WixkedLuck/CyberPunk" target="blank"></a>
-  </div>
-  </div>
-</div>
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid ">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav centerIt">
+
+                    <a class="nav-link active d-flex text-light " href="#Intro">Introduction</a>
+                    <a class="nav-link active d-flex text-light tile" href="#Exp">Top Vulnerabilities</a>
+                    
+                    <a class="nav-link  d-flex text-light active tile" href="#firstC">The Challenge</a>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- main content section  -->
+    <section class=" content">
+
+
+        <!-- Quick links -->
+
+
+
+
+
+
+        <div class=" ">
+            <div class="centerDiv centerIt row">
+                <div class="col">
+                    <h2 class="Title" id="Intro">Introduction:</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0Izu0J6iSoM?si=c-ULGWoZFzp52GvG"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col">
+                    <ul class="centerIt fs-5">
+                        <p>
+                            - A firewall is a network security device or software that monitors and controls incoming
+                            and outgoing network traffic based on predetermined security rules. Its primary purpose is
+                            to establish a barrier between a secure internal network and untrusted external networks,
+                            such as the internet. Firewalls are crucial for preventing unauthorized access, protecting
+                            sensitive data, and detecting and blocking malicious activities.
+                        </p><br></br>
+                        <p>
+                            - While firewalls are designed to enhance network security, they are not immune to
+                            exploitation.
+                        </p><br></br>
+                        <p>
+                            - To mitigate these exploits, it's essential to regularly update firewall configurations,
+                            apply security patches, and employ additional security measures such as intrusion detection
+                            and prevention systems. Regular security audits and monitoring can also help identify and
+                            address potential vulnerabilities in the firewall setup
+                        </p><br></br>
+                    </ul>
+                </div>
+            </div>
+            <br></br>
+
+
+
+            <br></br>
+            <!-- cards section -->
+            <h3 class="underlined Title" id="Exp">Top 7 Firewall Vulnerabilities</h3>
+            <br></br>
+            <div class="container">
+
+                <p>While incorporating a firewall into your security strategy is crucial, it's important to acknowledge
+                    that firewalls may exhibit vulnerabilities. A firewall vulnerability refers to a mistake in the
+                    design, implementation, or configuration of a firewall that could be exploited to compromise the
+                    integrity of the trusted network it aims to safeguard. Knowing this, we have categorized firewall
+                    exploits into multiple categoriesc focusing solely on the top seven for this module.</p>
+            </div>
+            <br></br>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="card over" style="width: 100%; min-height: 18rem;">
+                            <i class="fa-solid fa-bomb resized"></i>
+                            <div class="card-body">
+                                <h5 class="card-title underlined">Ddos Attack </h5>
+                                <div class="scroller">
+                                    <p class="card-text ">A Distributed Denial of Service (DDoS) attack is a malicious
+                                        attempt to disrupt the regular functioning of a network, service, or website by
+                                        overwhelming it with a flood of internet traffic. The primary goal of a DDoS
+                                        attack
+                                        is to make the target inaccessible to its intended users by flooding it with an
+                                        excessive amount of traffic, rendering its resources (such as bandwidth,
+                                        servers, or
+                                        other network components) overwhelmed and unable to respond to legitimate
+                                        requests. Some key characteristics of DDoS attacks include:
+                                    </p><br>
+                                    <h5 class="underlined" style="text-align: start;">Distributed Nature:</h5>
+                                    <p style="padding-bottom: 3rem;">DDoS attacks involve a multitude of compromised
+                                        computers and devices, often forming a network of bots or zombies (a botnet).
+                                        These devices, controlled by the attacker, collectively generate and direct
+                                        traffic towards the target.</p>
+                                    <h5 class="underlined" style="text-align: start;">Overwhelming Traffic:</h5>
+                                    <p style="padding-bottom: 3rem;">The attack floods the target with an overwhelming
+                                        volume of traffic, exceeding its normal capacity to handle requests. This flood
+                                        of traffic can come in various forms, such as data packets, connection requests,
+                                        or other network-related activities.</p>
+                                    <h5 class="underlined" style="text-align: start;">Botnets:</h5>
+                                    <p style="padding-bottom: 3rem;">Many DDoS attacks are executed using botnets, which
+                                        are networks of compromised computers or devices under the control of a single
+                                        entity (the attacker). These botnets are often built by infecting computers with
+                                        malware, allowing the attacker to coordinate the attack without the knowledge of
+                                        the device owners.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <div class="card over" style="width: 100%; min-height: 18rem;">
+                            <i class="fa-brands fa-uncharted resized"></i>
+                            <div class="card-body ">
+                                <h5 class="card-title underlined">Outdated Firewall Software</h5>
+                                <div class="scroller">
+                                    <p class="card-text">Outdated firewall software can lead to exploits in several
+                                        ways, as
+                                        it may have vulnerabilities that attackers can exploit to bypass security
+                                        measures
+                                        or compromise the integrity of the firewall. Some key ways in which outdated
+                                        firewall software can contribute to security risks are as follows: </p><br>
+
+                                    <h5 class="underlined" style="text-align: start;">Unpatched Vulnerabilities:</h5>
+                                    <p style="padding-bottom: 3rem;">Over time, security vulnerabilities are discovered
+                                        in firewall software, and
+                                        vendors release patches or updates to address these issues. If the firewall
+                                        software is not regularly updated, it may contain known vulnerabilities that
+                                        attackers can exploit to compromise the system.</p> <br>
+                                    <h5 class="underlined" style="text-align: start;">Failure to Address New Threats:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">Cyber threats are continually evolving, and
+                                        firewall vendors release updates to
+                                        counter new attack techniques. Outdated firewall software may lack defenses
+                                        against the latest threats, increasing the risk of successful exploits that take
+                                        advantage of novel attack vectors.</p>
+                                    <h5 class="underlined" style="text-align: start;">Inadequate Signature Databases:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">Firewalls often use signature-based detection
+                                        mechanisms to identify known patterns of malicious activity. If the firewall's
+                                        signature database is not regularly updated, it may not recognize new malware or
+                                        attack signatures, allowing malicious traffic to pass through undetected.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 2  -->
+                <br>
+                <div class="row" style="padding-top: 2rem; padding-bottom: 2rem;">
+                    <div class="col">
+                        <div class="card over" style="width: 100%; min-height: 18rem; margin: auto">
+                            <i class="fa-solid fa-file resized"></i>
+                            <div class="card-body">
+                                <h5 class="card-title underlined">Lack of Documentation </h5>
+                                <div class="scroller">
+                                    <p class="card-text">The lack of documentation regarding firewall configurations and
+                                        security policies can introduce several challenges and risks, potentially
+                                        amplifying
+                                        the impact of firewall exploits.</p><br>
+                                    <h5 class="underlined" style="text-align: start;">Configuration Errors:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">Without proper documentation, it becomes
+                                        challenging for administrators to accurately understand and replicate the
+                                        firewall configurations. This increases the likelihood of configuration errors
+                                        that could inadvertently expose vulnerabilities or create openings for
+                                        exploitation.</p>
+                                    <h5 class="underlined" style="text-align: start;">Delayed Troubleshooting:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">When issues arise, whether they are related to
+                                        performance, connectivity, or security, the lack of documentation hinders
+                                        efficient troubleshooting. Administrators may struggle to pinpoint the source of
+                                        problems or understand the intended design of the firewall.</p>
+                                    <h5 class="underlined" style="text-align: start;">Inconsistent Policy Enforcement:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">Documentation serves as a reference for security
+                                        policies and rules. Without it, there is an increased risk of inconsistent
+                                        policy enforcement, where different administrators or teams may interpret and
+                                        implement rules differently, leading to security gaps or unnecessary
+                                        restrictions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="margin-left: 2rem; margin-right: 2rem;">
+                        <div class="card over" style="width: 100%; min-height: 18rem; ">
+                            <i class="fa-solid fa-person-shelter resized"></i>
+                            <div class="card-body">
+                                <h5 class="card-title underlined">Insider Attacks </h5>
+                                <div class="scroller">
+                                    <p class="card-text ">Insider attacks in the context of firewall exploits
+                                        involve
+                                        individuals within an organization exploiting their access or knowledge to
+                                        bypass or
+                                        manipulate the firewall's security measures. Unlike external attacks that come
+                                        from
+                                        outside the organization, insider attacks originate from within, often taking
+                                        advantage of the trust and privileges granted to individuals within the network.
+                                    </p><br>
+                                    <h5 class="underlined" style="text-align: start;">Unauthorized Access:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">An insider with legitimate access to the network
+                                        may abuse their privileges to gain unauthorized access to restricted areas or
+                                        resources, potentially bypassing firewall controls.</p>
+                                    <h5 class="underlined" style="text-align: start;">Configuration Manipulation:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">Insiders with knowledge of the firewall's
+                                        configuration settings might exploit this information to manipulate rules,
+                                        disable the firewall, or create openings that allow malicious traffic to pass
+                                        through.</p>
+                                    <h5 class="underlined" style="text-align: start;">Abuse of Remote Access:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">If an insider has remote access privileges, they
+                                        may misuse this to connect to the network from outside and potentially evade
+                                        firewall restrictions that are designed to block unauthorized remote access.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card over" style="width: 100%; min-height: 18rem; margin: auto">
+                            <i class="fa-solid fa-screwdriver-wrench resized"></i>
+                            <div class="card-body">
+                                <h5 class="card-title underlined">Improper Configuration </h5>
+                                <div class="scroller">
+                                    <p class="card-text">
+                                        Improper configuration of a firewall refers to errors or oversights made during
+                                        the
+                                        setup and management of the firewall, which can lead to security vulnerabilities
+                                        and
+                                        potential exploits. </p><br>
+                                    <h5 class="underlined" style="text-align: start;">Incorrect Rule Settings:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">If firewall rules are not accurately configured,
+                                        they may allow unauthorized traffic to pass through or block legitimate traffic.
+                                        For example, misconfigured rules might inadvertently leave open ports that
+                                        should be closed or vice versa.</p>
+                                    <h5 class="underlined" style="text-align: start;">Default Settings:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">Some firewalls come with default settings that are
+                                        not secure for all environments. If these defaults are not adjusted based on the
+                                        specific needs of the network, they may leave unnecessary services or ports
+                                        open, creating potential entry points for attackers.</p>
+                                    <h5 class="underlined" style="text-align: start;">Incomplete Logging and Monitoring:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">Inadequate logging and monitoring configurations
+                                        may result in the firewall missing important events or failing to alert
+                                        administrators about suspicious activities. This can give attackers the
+                                        opportunity to go undetected.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 3 -->
+                <br></br>
+                <div class="row">
+                    <div class="col">
+                        <div class="card over" style="width: 100%; min-height: 18rem;">
+                            <i class="fa-solid fa-power-off resized"></i>
+                            <div class="card-body">
+                                <h5 class="card-title underlined">Failure to Activate Controls </h5>
+                                <div class="scroller">
+                                    <p class="card-text">The failure to activate and enforce proper controls on a
+                                        firewall
+                                        can significantly increase the risk of successful firewall exploits. Controls
+                                        are
+                                        security measures and configurations implemented to protect the network, and
+                                        when
+                                        these controls are not activated or properly enforced, it creates
+                                        vulnerabilities
+                                        that attackers may exploit. </p><br>
+                                    <h5 class="underlined" style="text-align: start;">Unrestricted Traffic Flow:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">In the absence of properly configured rules and
+                                        restrictions, the firewall may allow unrestricted traffic flow, enabling
+                                        attackers to send malicious traffic or conduct reconnaissance without detection.
+                                    </p>
+                                    <h5 class="underlined" style="text-align: start;">Malware Propagation:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">A lack of controls may permit the spread of malware
+                                        within the network. Malicious actors may exploit vulnerabilities in uncontrolled
+                                        communication channels, allowing malware to move laterally and compromise
+                                        multiple systems.
+                                    </p>
+                                    <h5 class="underlined" style="text-align: start;">Weak Authentication:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">Controls related to user authentication and access
+                                        management are critical. Failure to activate strong authentication controls may
+                                        lead to unauthorized individuals gaining access to the firewall's administrative
+                                        interface.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <div class="card over" style="width: 100%; min-height: 18rem;">
+                            <i class="fa-solid fa-magnifying-glass resized"></i>
+                            <div class="card-body">
+                                <h5 class="card-title underlined">Basic Inspection Tools</h5>
+                                <div class="scroller">
+                                    <p class="card-text">A lack of basic inspection tools in the context of a firewall
+                                        can
+                                        significantly hinder the detection and response to firewall exploits. Inspection
+                                        tools are essential for monitoring and analyzing network traffic, identifying
+                                        potential security threats, and understanding the effectiveness of the
+                                        firewall's
+                                        protective measures. </p><br>
+                                    <h5 class="underlined" style="text-align: start;">Limited Visibility:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">Basic inspection tools, such as packet analyzers or
+                                        network monitoring tools, provide visibility into the details of network
+                                        traffic. Without these tools, security teams have limited visibility into the
+                                        actual data packets traversing the network, making it challenging to identify
+                                        suspicious or malicious activities.
+                                    </p>
+                                    <h5 class="underlined" style="text-align: start;">Inability to Analyze Traffic
+                                        Patterns:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">Monitoring tools help in analyzing network traffic
+                                        patterns, detecting anomalies, and identifying potential signs of an exploit or
+                                        attack. The absence of such tools makes it difficult to recognize unusual
+                                        patterns that may indicate a security incident.
+                                    </p>
+                                    <h5 class="underlined" style="text-align: start;">Failure to Identify Exploited
+                                        Vulnerabilities:
+                                    </h5>
+                                    <p style="padding-bottom: 3rem;">Inspection tools are crucial for identifying
+                                        vulnerabilities in networked systems. Without them, security teams may be
+                                        unaware of exploited vulnerabilities, making it difficult to address the root
+                                        cause of the exploit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br> </br>
+
+            <br></br>
+           
+            
+
+            <!--  challange -->
+            <h2 class="underlined" style="margin-top: 5rem;" id="firstC">The Challenge</h2>
+
+
+
+            <br></br>
+            <div class="row">
+                <div class="col">
+                    <p>Mark module as complete:</p>
+
+                </div>
+                <div class="col">
+                    <input type="radio" id="finish" name="fav_language" onclick="handlechange()">
+                    <label for="html">Complete</label><br>
+                </div>
+
+            </div>
+    </section>
+    <!-- section with astronot -->
+    <section class=" space ">
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="../images/Hacker Using Laptop.gif" style="max-width: 80% ;" alt="Frozen in time">
+                </div>
+                <div class="col">
+                    <div class="glass2">
+                        <h3 style="color: black; font-weight: bolder;">Great Job!</h3>
+                        <p class="underline" style="color: black; font-weight: bolder;">Why not check out some other
+                            modules?</p>
+                        <br></br>
+                        <ul class="centerIt fs-4 custom">
+                            <li> <a href="./IntroCS.html" class="text-info" style="font-weight: bolder;">Intro to
+                                    Cybersecurity</a></li>
+                            <li><a href="./MobileMaleware.html" class="text-info"
+                                    style="font-weight: bolder;">MobileMaleware</a></li>
+                            <li><a href="./SqlInjections.html" class="text-info" style="font-weight: bolder;">SQL
+                                    Injection Attacks</a></li>
+                            <li><a href="./XSS.html" class="text-info" style="font-weight: bolder;">XSS Attacks</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+    </section>
 
 
     <!-- Settings Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content " style="background-color: #3D4450;">
-                <div class="modal-header" >
-                    <h1 class="modal-title fs-4" id="exampleModalLabel" >Settings:</h1>
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4" id="exampleModalLabel">Settings:</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body" style="margin: auto;">
-                    <button class="btn-primary  fa-solid fa-eraser icons " id="History"  style="font-size: 12px;"> Erase all Data</button>
-                    <button class="btn-primary fa-solid fa-lightbulb icons "  style="font-size: 12px;" title="Light/Dark Mode"> Change
-                        Mode</a>
+                    <button class="btn-primary  fa-solid fa-eraser icons " id="History" style="font-size: 12px;"> Erase
+                        all Data</button>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -105,10 +519,31 @@
 
 
 
+
+    <br></br>
+    <!-- footer -->
+    <div class="card w-100 centerDiv centerIt footer">
+        <div class="card-body">
+            <h5 class="card-title">Nice! you made it to the bottom...</h5>
+            <p class="card-text">Additional Content:</p>
+            <div>
+                <a class=" fa-brands fa-linkedin icons " href="https://www.linkedin.com/in/david-a-hybner/"
+                    target="blank"></a>
+                <a class=" fa-solid fa-school icons " href="https://www.vsu.edu/" target="blank"></a>
+                <a class="fa-brands fa-github-alt icons" href="https://github.com/WixkedLuck/CyberPunk"
+                    target="blank"></a>
+            </div>
+        </div>
+    </div>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
+<script src="../javascript/prism.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="./public/javascript/index.js"></script>
+<script src="../javascript/firewall.js"></script>
 </body>
+
 </html>

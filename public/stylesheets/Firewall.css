@@ -1,0 +1,170 @@
+@counter-style thumbs {
+    system: cyclic;
+    symbols: "\1F6F8" "\1F680" "\1F6F0" "\1FA90" "\2604";
+    suffix: " ";
+  }
+  a:hover {
+    cursor:pointer;
+   }
+  .custom {
+    list-style: thumbs;
+  }
+  #introCS{
+     margin-left:0 ;
+   margin-right: 2rem;
+    padding: 0; 
+    width: 90%;
+    text-align: left;
+  }
+
+  .Title{
+    font-family: 'Cairo Play', sans-serif;
+  }
+  
+.phone{
+    background-image: url(../images/fire.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-attachment: fixed;
+  
+  height: 200vh;
+}
+
+.topLayer{
+    margin-top: 20rem;
+}
+
+.space{
+    margin: 5rem;
+    /* margin-bottom: 15rem; */
+    padding-top: 5rem;
+}
+.space2{
+    margin-top: 5rem;
+}
+.width-80{
+    max-width: 50% !important;
+    margin: 2rem;
+}
+.glass{
+    
+    
+    background: rgba(255, 255, 255, 0.31);
+
+padding: 40px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.6px);
+-webkit-backdrop-filter: blur(3.6px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.underlined{
+    text-align: center;
+    border-bottom: #4e697d  2px solid;
+    width: 100%;
+}
+.resized{
+    font-size: 36px;
+    width:auto;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: #4e697d  ;
+}
+
+.glass2{
+    background: rgba(255, 255, 255, 0.16);
+border-radius:0px;
+padding: 40px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.6px);
+-webkit-backdrop-filter: blur(3.6px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.boldly{
+color: gold;
+font-weight: bold;
+font-size: larger;
+}
+
+.center{
+    width: auto !important; 
+
+}
+
+.text-info:hover{
+    color:black !important;
+    font-weight: bolder;
+}
+
+.list-group-item{
+    background-color: #4e697d;
+    color: whitesmoke;
+}
+
+.over:hover {
+    
+    border-color:#876bd1 ;
+    box-shadow: 20px 20px 60px #876bd1,
+    -20px -20px 60px #5c4a8d;
+    
+}
+.over:hover i{
+   color: #876bd1; 
+}
+.over:hover h5{
+    border-color: #876bd1;
+}
+.over:hover a{
+    border-color: #876bd1;
+
+}
+.accordion-button{
+    background-color: #4e697d;
+    color: whitesmoke;
+    
+}
+.accordion-item{
+    
+    background-color: #3D4450;
+    color: whitesmoke;
+    border-color: #3D4450;
+    box-shadow: 20px 20px 60px #23262E,
+    -20px -20px 60px #4e697d;
+}
+
+
+
+.animate__animated.animate__flipInY {
+  --animate-delay: 15s;
+  --animate-duration: 1.5s;
+}
+.scroller {
+    height: 300px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+  
+
+  .gradient-text {
+    /* Fallback: Set a background color. */
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, rgb(211, 55, 55), orange);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  
