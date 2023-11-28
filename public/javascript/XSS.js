@@ -15,7 +15,12 @@ function handlechange(){
      // console.log(`Page Status for ${pageKey}: ${status}`);
 
 
-
+     var ClearHistory=document.querySelector('#History');
+     //clear history btn
+     ClearHistory.addEventListener('click',function () {
+         localStorage.clear();
+         location.reload();
+       })
 
 
 
