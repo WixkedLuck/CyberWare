@@ -102,19 +102,19 @@ font-size: larger;
 
 .over:hover {
     
-    border-color:#876bd1 ;
-    box-shadow: 20px 20px 60px #876bd1,
-    -20px -20px 60px #5c4a8d;
+    border-color:cyan ;
+    box-shadow: 20px 20px 60px cyan,
+    -20px -20px 60px whitesmoke;
     
 }
 .over:hover i{
-   color: #876bd1; 
+   color: cyan; 
 }
 .over:hover h5{
-    border-color: #876bd1;
+    border-color: cyan;
 }
 .over:hover a{
-    border-color: #876bd1;
+    border-color: cyan;
 
 }
 .accordion-button{

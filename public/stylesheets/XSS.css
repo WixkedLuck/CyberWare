@@ -62,7 +62,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 
 .underlined{
     text-align: center;
-    border-bottom: #4e697d  2px solid;
+    border-bottom: greenyellow  2px solid;
     width: 100%;
 }
 .resized{
@@ -75,7 +75,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .glass2{
-    background: rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.06);
 border-radius:0px;
 padding: 40px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -94,10 +94,12 @@ font-size: larger;
     width: auto !important; 
 
 }
-
+.text-info{
+    color: greenyellow !important; 
+}
 .text-info:hover{
-    color:black !important;
-    font-weight: bolder;
+    color:rgb(255, 31, 188) !important;
+  
 }
 
 .list-group-item{
@@ -108,18 +110,18 @@ font-size: larger;
 .over:hover {
     
     border-color:#876bd1 ;
-    box-shadow: 20px 20px 60px #876bd1,
-    -20px -20px 60px #5c4a8d;
+    box-shadow: 20px 20px 60px yellowgreen,
+    -20px -20px 60px rgb(255, 31, 188);
     
 }
 .over:hover i{
-   color: #876bd1; 
+   color: yellowgreen; 
 }
 .over:hover h5{
-    border-color: #876bd1;
+    border-color: yellowgreen;
 }
 .over:hover a{
-    border-color: #876bd1;
+    border-color: yellowgreen;
 
 }
 .accordion-button{
@@ -169,3 +171,24 @@ font-size: larger;
     font-size: 18px;
     margin-top: 20px;
 }
+
+.footer{
+    background-color: #3D4450;
+    border: yellowgreen solid 2px  ;
+   border-left: none;
+   border-right: none;
+    border-radius: 0;
+    box-shadow: 20px 20px 60px yellowgreen,
+    -20px -20px 60px rgb(255, 31, 188);
+}
+nav{
+    border-bottom: yellowgreen solid 2px ;
+}
+
+.tile{
+    border-left: 2px solid yellowgreen;
+}
+
+.underline{border-bottom: 2px solid yellowgreen;}
+
+.subTitle{border-bottom: 2px solid yellowgreen;}

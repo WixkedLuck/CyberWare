@@ -62,7 +62,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 
 .underlined{
     text-align: center;
-    border-bottom: #4e697d  2px solid;
+    border-bottom: darkorchid  2px solid;
     width: 100%;
 }
 .resized{
@@ -85,7 +85,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .boldly{
-color: gold;
+color: darkorchid;
 font-weight: bold;
 font-size: larger;
 }
@@ -182,3 +182,24 @@ font-size: larger;
       text-shadow: none;
     }
   }
+
+
+  .footer{
+    background-color: #3D4450;
+    border: rgb(127, 18, 170)solid 2px  ;
+   border-left: none;
+   border-right: none;
+    border-radius: 0;
+    box-shadow: 20px 20px 60px darkorchid,
+    -20px -20px 60px darkmagenta;
+}
+nav{
+    border-bottom: darkorchid solid 2px ;
+}
+
+.tile{
+    border-left: 2px solid darkorchid;
+}
+
+.underline{border-bottom: 2px solid darkorchid;}
+.subTitle{ border-bottom: 2px solid darkorchid;}
