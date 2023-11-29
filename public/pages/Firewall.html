@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../stylesheets/NewsFeed.css">
     <link rel="stylesheet" href="../stylesheets/Firewall.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../stylesheets/notepad.css">
 </head>
 
 <body class="phone">
@@ -106,7 +107,19 @@
     <!-- main content section  -->
     <section class=" content">
 
+  <!-- notepad -->
+  <div id="notepad-container" style="background-color: gray;" >
+    <div style="background-color: gray;">
+    <button id="btnToggle" class="btn-close" style="text-align: end;"></button>
+    </div>
+    <div id="notepad" contenteditable="true"></div>
+   
+    <button id="btnSave" class=" btn btn-success" style="width: fit-content; margin: auto;   padding-left: 44%; padding-right: 43%; border-radius: 0;">Save</button>
+    <button id="btnClear" class=" btn btn-danger" style="width: fit-content; margin: auto;   padding-left: 43%; padding-right: 40%; border-radius: 0;">Delete</button>
 
+    
+</div>
+<button id="btnReopen" class="btn-primary" style="color: whitesmoke; border-radius: 30%;  font-size: x-large;">Notes</button>
         <!-- Quick links -->
 
 
@@ -635,6 +648,7 @@
     <script src="../javascript/prism.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="../javascript/firewall.js"></script>
+    <script src="../javascript/notepad.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,40 @@
+#notepad-container {
+    position: fixed;
+    
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    overflow: auto;
+    z-index: 1000;
+    display: none; /* Initially hidden */
+}
+
+#notepad {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: whitesmoke; 
+    color: #23262E;
+    font-size: larger;
+    box-sizing: border-box;
+     
+}
+#btnSave, #btnToggle, #btnReopen, #btnClear {
+    display: none;
+    margin-top: 10px;
+
+}
+#btnReopen{
+    position: fixed;
+    
+    bottom: 10px;
+    right: 10px;
+    
+    z-index: 1000;
+}
+
+/* #btnReopen {
+    display: none; /* Initially hidden */
