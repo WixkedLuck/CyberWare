@@ -62,7 +62,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 
 .underlined{
     text-align: center;
-    border-bottom: #4e697d  2px solid;
+    border-bottom: orangered  2px solid;
     width: 100%;
 }
 .resized{
@@ -85,7 +85,22 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .boldly{
-color: gold;
+ /* Fallback: Set a background color. */
+ background-color: red;
+    
+ /* Create the gradient. */
+ background-image: linear-gradient(45deg, rgb(211, 55, 55), orange);
+ 
+ /* Set the background size and repeat properties. */
+ background-size: 100%;
+ background-repeat: repeat;
+
+ /* Use the text as a mask for the background. */
+ /* This will show the gradient as a text color rather than element bg. */
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent; 
+ -moz-background-clip: text;
+ -moz-text-fill-color: transparent;
 font-weight: bold;
 font-size: larger;
 }
@@ -94,10 +109,12 @@ font-size: larger;
     width: auto !important; 
 
 }
-
+.text-info{
+    color:yellow !important;
+}
 .text-info:hover{
-    color:black !important;
-    font-weight: bolder;
+    color:orangered !important;
+    
 }
 
 .list-group-item{
@@ -107,20 +124,38 @@ font-size: larger;
 
 .over:hover {
     
-    border-color:#876bd1 ;
-    box-shadow: 20px 20px 60px #876bd1,
-    -20px -20px 60px #5c4a8d;
+    border-color:rgb(211, 55, 55) ;
+    box-shadow: 20px 20px 60px orange,
+    -20px -20px 60px orangered;
     
 }
 .over:hover i{
-   color: #876bd1; 
+   color: orangered; 
 }
 .over:hover h5{
-    border-color: #876bd1;
+    border-color: orangered;
 }
 .over:hover a{
-    border-color: #876bd1;
+    border-color: orangered;
 
+}
+.over:hover h5{
+     /* Fallback: Set a background color. */
+     background-color: red;
+    
+     /* Create the gradient. */
+     background-image: linear-gradient(45deg, rgb(211, 55, 55), orange);
+     
+     /* Set the background size and repeat properties. */
+     background-size: 100%;
+     background-repeat: repeat;
+   
+     /* Use the text as a mask for the background. */
+     /* This will show the gradient as a text color rather than element bg. */
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent; 
+     -moz-background-clip: text;
+     -moz-text-fill-color: transparent;
 }
 .accordion-button{
     background-color: #4e697d;
@@ -168,3 +203,22 @@ font-size: larger;
     -moz-text-fill-color: transparent;
   }
   
+
+  .footer{
+    background-color: #3D4450;
+    border: orangered solid 2px  ;
+   border-left: none;
+   border-right: none;
+    border-radius: 0;
+    box-shadow: 20px 20px 60px orangered,
+    -20px -20px 60px orange;
+}
+nav{
+    border-bottom: orangered solid 2px ;
+}
+
+.tile{
+    border-left: 2px solid orangered;
+}
+
+.underline{border-bottom: 2px solid orangered;}
