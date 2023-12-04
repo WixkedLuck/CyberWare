@@ -32,7 +32,8 @@
                 <div class="navbar-nav">
 
                     <a class="nav-link active d-flex text-light" href="../../AboutUs.html">About</a>
-                    <a class="nav-link  d-flex text-light active" href="../pages/LearningCenter.html">Learning Center</a>
+                    <a class="nav-link  d-flex text-light active" href="../pages/LearningCenter.html">Learning
+                        Center</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" id="pages" href="./public/pages/NewsFeed.html"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,8 +54,8 @@
             <div>
                 <a class="fa-solid fa-headset icons" href="./email.html" title="Contact Us"></a>
                 <a class="fa-solid fa-gears icons" title="Settings" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">
-            </a>
+                    data-bs-target="#exampleModal">
+                </a>
             </div>
         </div>
 
@@ -66,19 +67,22 @@
     <!-- main content section  -->
     <section class=" content topLayer">
 
-  <!-- notepad -->
-  <div id="notepad-container" style="background-color: gray;" >
-    <div style="background-color: gray;">
-    <button id="btnToggle" class="btn-close" style="text-align: end;"></button>
-    </div>
-    <div id="notepad" contenteditable="true"></div>
-   
-    <button id="btnSave" class=" btn btn-success" style="width: fit-content; margin: auto;   padding-left: 44%; padding-right: 43%; border-radius: 0;">Save</button>
-    <button id="btnClear" class=" btn btn-danger" style="width: fit-content; margin: auto;   padding-left: 43%; padding-right: 40%; border-radius: 0;">Delete</button>
+        <!-- notepad -->
+        <div id="notepad-container" style="background-color: gray;">
+            <div style="background-color: gray;">
+                <button id="btnToggle" class="btn-close" style="text-align: end;"></button>
+            </div>
+            <div id="notepad" contenteditable="true"></div>
 
-    
-</div>
-<button id="btnReopen" class="btn-primary" style="color: whitesmoke; border-radius: 30%;  font-size: x-large;">Notes</button>
+            <button id="btnSave" class=" btn btn-success"
+                style="width: fit-content; margin: auto;   padding-left: 44%; padding-right: 43%; border-radius: 0;">Save</button>
+            <button id="btnClear" class=" btn btn-danger"
+                style="width: fit-content; margin: auto;   padding-left: 43%; padding-right: 40%; border-radius: 0;">Delete</button>
+
+
+        </div>
+        <button id="btnReopen" class="btn-primary"
+            style="color: whitesmoke; border-radius: 30%;  font-size: x-large;">Notes</button>
         <!-- Quick links -->
         <nav class="navbar navbar-expand-lg  ">
             <div class="container-fluid ">
@@ -93,7 +97,8 @@
 
                         <a class="nav-link active d-flex text-light " href="#Intro">Introduction</a>
                         <a class="nav-link active d-flex text-light tile" href="#Exp">Types of Mobile Malware</a>
-                        <a class="nav-link  d-flex text-light active tile" href="#firstC">First Challenge</a>
+                        <a class="nav-link active d-flex text-light tile" href="#prevent">Preventive Measures</a>
+                        <a class="nav-link  d-flex text-light active tile" href="#firstC"> Challenge</a>
 
 
                     </div>
@@ -106,148 +111,435 @@
 
 
         <div class=" ">
-
-            <h2 class="subTitle" id="Intro">Introduction:</h2>
-            <p class="card-body"> 
-                
-                <p>Mobile malware comes in many forms. Some malware sits in the background and reads data about what the user is doing with their phone. <br>
-                Others actively attack the device in question by running malicious scripts such as bitcoin mining, or running malicious advertisements on the users device. <br>
-                Some mobile malware uses the device's privilege to access networks that would otherwise be blocked by a firewall or other security measures. <br>
-                Since the device is being controlled has access to a secured network, if the affected device isn't able to detect the issue,<br> the network will allow the trusted computer access to the network.</p>
-                <br>
-
-                <p>Mobile malware is diverse in how it can infect a target device. <br>
-                Most malware is downloaded accidentally, such as through fake download links on websites with bad advertisements. <br>
-                These are installed by the user because they pretend to be something the user actually wanted to download and use. <br>
-                Other mobile malware can be downloaded by visiting a malicious link. <br>
-                These downloads happen quickly, because the link automatically starts the download process after clicking on the link,<br> often with the user being unaware until the download is well on it’s way and sometimes in the background.</p>
-                <br>
-
-                <p>Mobile malware can also be downloaded because of phishing techniques. <br>
-                These trick the user into giving the bad actor password or fingerprint information,<br> which is then used to login to the device or account and then act from there. <br>
-                Many times users will not know that their device is compromised because they believed that they were actually protecting their device,<br> or was doing something innocuous that won’t cause any harm.</p>
-                <br>
-
-                <p>While mobile malware can be dangerous, there are some ways to protect against it to keep your device safe. <br>
-                Old versions of apps can have vulnerabilities that can be exploited to gain access to your device. <br>
-                Many of these flaws are patched up in future updates, so keeping your apps up to date is an important security measure. <br>
-                The google play store and the apple store both have vetted software. <br>
-                It is not completely impossible to find a virus on these official app stores, but it is highly unlikely and they often remove them. <br>
-                You can also use mobile security software that will scan your phone in the background to remove many common threats. <br>
-                A firewall is an additional layer of security, along with making sure that you have a lock set up on your phone.</p>
-                
-            </p>
-            <br></br>
-
-            <!-- next section -->
-            <h3 class="underlined" id="Exp">Examples of Mobile Malware</h3>
-            <br></br>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <i class="fa-solid fa-computer resized"></i>
-                            <div class="card-body">
-                                <h5 class="card-title underlined">Remote Access Tools </h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <i class="fa-solid fa-horse-head resized"></i>
-                            <div class="card-body">
-                                <h5 class="card-title underlined">Bank trojans</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <i class="fa-solid fa-spoon resized"></i>
-                            <div class="card-body">
-                                <h5 class="card-title underlined">Cryptomining Malware</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="centerDiv centerIt row">
+                <div class="col">
+                    <h2 class="Title" id="Intro">Introduction:</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/s-NfumQCiVE?si=BO9ywvOueZ9rI2S9"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col">
+                    <ul class="centerIt fs-5">
+                        <p>
+                            - Mobile malware comes in many forms. Some malware sits in the background and reads data
+                            about what the user is
+                            doing with their phone.
+                            Others actively attack the device in question by running <span class="boldly">malicious
+                                scripts</span> such as bitcoin
+                            mining, or
+                            running malicious advertisements on the users device.
+                            Some mobile malware uses the <span class="boldly">device's privilege</span> to access
+                            networks that would otherwise be
+                            blocked by a
+                            firewall or other security measures.
+                            Since the device is being controlled has access to a secured network, if the affected device
+                            isn't able to
+                            detect the issue, the network will allow the trusted computer access to the network.</p>
+                        </p><br></br>
+                        <p>
+                            - Mobile malware is diverse in how it can infect a target device.
+                            Most malware is downloaded accidentally, such as through fake download links on websites
+                            with bad
+                            advertisements.
+                            These are installed by the user because they <span class="boldly">pretend</span> to be
+                            something the user actually
+                            wanted to download
+                            and use.
+                            Other mobile malware can be downloaded by visiting a <span class="boldly">bad link</span>.
+                            These downloads happen quickly, because the link automatically starts the download process
+                            after clicking on
+                            the link, often with the user being unaware until the download is well on it’s way and
+                            sometimes in the
+                            background.</p>
+                        <br></br>
+                        <p>
+                            - Mobile malware can also be downloaded because of <span class="boldly">phishing
+                                techniques</span>.
+                            These trick the user into giving the bad actor password or fingerprint information, which is
+                            then used
+                            to login to the device or account and then act from there.
+                            Many times users will not know that their device is compromised because they believed that
+                            they were
+                            actually protecting their device,or was doing something innocuous that wouldn't cause any
+                            harm.
+                        </p>
+                        </p><br></br>
+                    </ul>
                 </div>
             </div>
-            <br> </br>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <i class="fa-solid fa-arrow-pointer resized"></i>
-                            <div class="card-body">
-                                <h5 class="card-title underlined">Advertising Click Fraud</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <i class="fa-solid fa-viruses resized"></i>
-                            <div class="card-body">
-                                <h5 class="card-title underlined">Ransomware</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <i class="fa-solid fa-fish resized"></i>
-                            <div class="card-body">
-                                <h5 class="card-title underlined">Phishing and Spoofing</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
+        <br></br>
+
+
+
+
+
+
+
+
+        <div class="container ">
+
+
+
+            <p>While mobile malware can be dangerous, there are some ways to protect against it to keep your device
+                safe.
+                Old versions of apps can have vulnerabilities that can be exploited to gain access to your device.
+                Many of these flaws are patched up in future updates, so keeping your apps <span class="boldly">up to
+                    date</span> is an important
+                security measure.
+                The google play store and the apple store both have vetted software.
+                It is not completely impossible to find a virus on these official app stores, but it is highly unlikely
+                and
+                they often remove them.
+                You can also use <span class="boldly">mobile security software</span> that will scan your phone in the
+                background to remove many
+                common
+                threats.
+                A <span class="boldly">firewall</span> is an additional layer of security, along with making sure that
+                you have a lock set up on
+                your
+                phone.</p>
 
         </div>
+        <br></br>
 
-<br></br>
+        <!-- next section -->
+        <h3 class="underlined" id="Exp">Examples of Mobile Malware</h3>
+        <br></br>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fa-solid fa-computer resized"></i>
+                        <div class="card-body">
+                            <h5 class="card-title underlined">Remote Access Tools </h5>
+                            <div class="scroller">
+                                <p class="card-text">Remote Access Tools (RATs) in the context of mobile malware refer
+                                    to malicious software or applications designed to provide unauthorized access and
+                                    control over a mobile device from a remote location. These tools are typically
+                                    created with malicious intent, and they can pose serious threats to user privacy,
+                                    security, and data integrity. Some common functionalities asssociated with RATs in
+                                    the context of mobile malware are the following:</p><br>
+                                <h5 class="underlined" style="text-align: start;">Unauthorized Access:
+                                </h5>
+                                <p style="padding-bottom: 3rem;">RATs enable attackers to gain unauthorized access to a
+                                    mobile device. Once installed, the attacker can remotely connect to the device
+                                    without the user's knowledge or consent.</p>
+                                <h5 class="underlined" style="text-align: start;">Data Theft:
+                                </h5>
+                                <p style="padding-bottom: 3rem;">Remote Access Tools may be used to steal sensitive data
+                                    from the infected device, such as personal information, login credentials, financial
+                                    data, and more. This information can be exploited for various malicious purposes,
+                                    including identity theft and financial fraud.</p>
+                                <h5 class="underlined" style="text-align: start;">File Manipulation:
+                                </h5>
+                                <p style="padding-bottom: 3rem;">Attackers can use RATs to manipulate files on the
+                                    compromised device, including deleting, modifying, or transferring files. This can
+                                    lead to data loss or manipulation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fa-solid fa-horse-head resized"></i>
+                        <div class="card-body">
+                            <h5 class="card-title underlined">Bank trojans</h5>
+                            <div class="scroller">
+                                <p class="card-text">Banking trojans are a type of malicious software designed
+                                    specifically to target financial transactions and sensitive information related to
+                                    online banking. When it comes to mobile malware, bank trojan tools are crafted to
+                                    compromise the security of mobile banking applications and steal sensitive financial
+                                    data. Some commonalities of this software include: </p><br>
+                                <h5 class="underlined" style="text-align: start;">Credential Theft:
+                                </h5>
+                                <p style="padding-bottom: 3rem;"> Bank trojans are primarily designed to capture login
+                                    credentials for online banking applications. They may intercept and record usernames
+                                    and passwords as users enter them into legitimate banking apps.</p>
+                                <h5 class="underlined" style="text-align: start;">Two-Factor Authentication Bypass:
+                                </h5>
+                                <p style="padding-bottom: 3rem;">Many banking trojans have the capability to intercept
+                                    one-time passwords or authentication codes sent via SMS or generated by
+                                    authenticator apps. This allows attackers to bypass two-factor authentication
+                                    mechanisms.</p>
+                                <h5 class="underlined" style="text-align: start;">SMS and Call Manipulation:
+                                </h5>
+                                <p style="padding-bottom: 3rem;">Banking trojans may manipulate SMS messages or phone
+                                    calls to hide transaction alerts or communication from the bank. This prevents users
+                                    from being notified of suspicious activities</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fa-solid fa-spoon resized"></i>
+                        <div class="card-body">
+                            <h5 class="card-title underlined">Cryptomining Malware</h5>
+                            <div class="scroller">
+                                <p class="card-text">Crypto mining malware, also known as cryptocurrency mining malware
+                                    or cryptojacking, refers to malicious software that secretly exploits the processing
+                                    power of a mobile device to mine cryptocurrencies without the user's knowledge or
+                                    consent. Cryptocurrency mining is the process of validating transactions on a
+                                    blockchain network and adding them to the distributed ledger (blockchain) in
+                                    exchange for newly created cryptocurrency coins.</p><br>
+                                <h5 class="underlined" style="text-align: start;">Silent Execution:
+                                </h5>
+                                <p style="padding-bottom: 3rem;"> Once installed on the device, the crypto mining
+                                    malware runs silently in the background without the user's awareness. It may try to
+                                    conceal its presence to avoid detection.</p>
+                                <h5 class="underlined" style="text-align: start;">Resource Consumption:
+                                </h5>
+                                <p style="padding-bottom: 3rem;">Crypto mining requires significant computational
+                                    resources, leading to increased CPU and GPU usage. This can result in the device
+                                    becoming sluggish, experiencing overheating, and draining the battery more rapidly.
+
+                                </p>
+                                <h5 class="underlined" style="text-align: start;">Detection Evasion:
+                                </h5>
+                                <p style="padding-bottom: 3rem;"> Some crypto mining malware employs techniques to evade
+                                    detection by security software. This may include polymorphic behavior, encryption,
+                                    or leveraging vulnerabilities that are not yet patched.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> </br>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fa-solid fa-arrow-pointer resized"></i>
+                        <div class="card-body">
+                            <h5 class="card-title underlined">Advertising Click Fraud</h5>
+                            <div class="scroller">
+                                <p class="card-text">
+                                    Advertisement fraud and malicious links in the context of mobile malware can have
+                                    several negative effects on individuals. Some ways this can affect a person is as
+                                    follows:</p><br>
+                                <h5 class="underlined" style="text-align: start;">Privacy Invasion:
+                                </h5>
+                                <p style="padding-bottom: 3rem;"> Data Collection: Malicious advertisements and links
+                                    might be designed to collect personal information without the user's consent. This
+                                    information could include sensitive data such as passwords, credit card details, and
+                                    other personally identifiable information.</p>
+                                <h5 class="underlined" style="text-align: start;">Device Performance and Battery Drain:
+                                </h5>
+                                <p style="padding-bottom: 3rem;">Malicious advertisements can consume significant device
+                                    resources, leading to performance issues, increased data usage, and accelerated
+                                    battery drain. This can result in a poorer user experience and additional costs for
+                                    the user, especially if their data plan is affected.
+
+
+                                </p>
+                                <h5 class="underlined" style="text-align: start;">Infection Chains:
+                                </h5>
+                                <p style="padding-bottom: 3rem;"> Malicious links can initiate a chain reaction of
+                                    infections. For example, clicking on a link might lead to the download of a
+                                    malicious app, which then introduces other forms of malware onto the device.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fa-solid fa-viruses resized"></i>
+                        <div class="card-body">
+                            <h5 class="card-title underlined">Ransomware</h5>
+                            <div class="scroller">
+                                <p class="card-text">
+                                    Ransomware is a type of malicious software that encrypts a user's files or locks
+                                    them out of their system and demands a ransom payment in exchange for restoring
+                                    access. While ransomware attacks have historically been more prevalent on desktop
+                                    computers, there have been instances of ransomware affecting mobile devices as well.
+                                    Here's how ransomware can impact mobile devices:</p><br>
+                                <h5 class="underlined" style="text-align: start;">Device Locking:
+                                </h5>
+                                <p style="padding-bottom: 3rem;"> Some mobile ransomware variants may lock users out of
+                                    their devices, displaying a ransom message on the screen and preventing access to
+                                    the device's functionality.</p>
+                                <h5 class="underlined" style="text-align: start;">Data Loss:
+                                </h5>
+                                <p style="padding-bottom: 3rem;">Victims of mobile ransomware may experience data loss
+                                    if they are unable or unwilling to pay the ransom. This can include photos, videos,
+                                    documents, and other personal or work-related files.
+
+
+                                </p>
+                                <h5 class="underlined" style="text-align: start;">Social Engineering:
+                                </h5>
+                                <p style="padding-bottom: 3rem;"> Mobile ransomware often uses social engineering
+                                    tactics to trick users into installing malicious apps or clicking on malicious
+                                    links. This can involve disguising the malware as a legitimate application or using
+                                    enticing messages to lure users.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fa-solid fa-fish resized"></i>
+                        <div class="card-body">
+                            <h5 class="card-title underlined">Phishing and Spoofing</h5>
+                            <div class="scroller">
+                                <p class="card-text">
+                                    Phishing and spoofing are common tactics employed by cybercriminals to deceive
+                                    mobile users and compromise their sensitive information. Both techniques aim to
+                                    trick individuals into revealing personal information, such as login credentials or
+                                    financial details. </p><br>
+                                <h5 class="underlined" style="text-align: start;">Spoofing:
+                                </h5>
+                                <p style="padding-bottom: 3rem;"> In the mobile context, spoofing can occur through fake
+                                    apps, websites, or messages designed to appear as if they are from trustworthy
+                                    sources. For example, a phishing message may appear to come from a legitimate bank,
+                                    but the link actually leads to a fraudulent site. Spoofing attacks can then target a
+                                    wide range of mobile services, including banking apps, shopping apps, email
+                                    services, and more.</p>
+                                <h5 class="underlined" style="text-align: start;">Phishing:
+                                </h5>
+                                <p style="padding-bottom: 3rem;">In mobile environments, phishing attacks can occur
+                                    through SMS (text messages), email, social media messages, or even in-app messages.
+                                    These messages may contain links that lead to fake websites designed to mimic
+                                    legitimate ones, tricking users into entering their login credentials. These attacks
+                                    often target users of banking apps, social media platforms, email services, and
+                                    other applications that store valuable personal information.
+
+
+                                </p>
+                                <h5 class="underlined" style="text-align: start;">Social Engineering:
+                                </h5>
+                                <p style="padding-bottom: 3rem;"> Mobile ransomware often uses social engineering
+                                    tactics to trick users into installing malicious apps or clicking on malicious
+                                    links. This can involve disguising the malware as a legitimate application or using
+                                    enticing messages to lure users.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <br></br>
+        <!-- prevent section -->
+        <h3 class="underlined Title" id="prevent" style="padding-top: 16rem;">Preventive Measures </h3>
+        <br></br>
+
+        <h4 style="margin: 4rem;" class="centerIt">To protect against mobile malware and all of the different forms of
+            attacks, individuals and organizations should consider the following best practices:</h4>
+            <div class="row">
+            <div class="col">
+                
+                <div class="accordion centerIt" style="width: 80%; " id="accordionExample">
+                   <div class="accordion-item">
+                     <h2 class="accordion-header" id="headingOne">
+                       <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Backup Data
+                       </button>
+                     </h2>
+                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                       <div class="accordion-body">
+                        Regularly back up important data to an external source that is not constantly connected to the device. This can help mitigate the impact of ransomware by allowing data restoration without paying the ransom.
+                       </div>
+                     </div>
+                   </div>
+                   <div class="accordion-item">
+                     <h2 class="accordion-header" id="headingTwo">
+                       <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Use Security Software
+                       </button>
+                     </h2>
+                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                       <div class="accordion-body">
+                        Install reputable mobile security software that can detect and block malicious apps or links.               </div>
+                     </div>
+                   </div>
+                   <div class="accordion-item">
+                     <h2 class="accordion-header" id="headingThree">
+                       <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Keep Software Updated
+                       </button>
+                     </h2>
+                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                       <div class="accordion-body">
+                        Regularly update the device's operating system and all installed applications to patch vulnerabilities.
+                       </div>
+                     </div>
+                   </div>
+                   <div class="accordion-item">
+                       <h2 class="accordion-header" id="headingFour">
+                         <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            Exercise Caution
+                         </button>
+                       </h2>
+                       <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                         <div class="accordion-body">
+                            Be cautious about downloading apps from unofficial sources or clicking on suspicious links, especially in emails or messages from unknown or untrusted sources.
+                         </div>
+                       </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                          <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                            Avoid Unknown Sources
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Download apps only from official app stores, and avoid installing apps from untrusted sources or clicking on links that are not from offical sources.                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                          <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                            Enable Two-Factor Authentication
+                          </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Whenever possible, enable two-factor authentication for your online banking accounts to add an extra layer of security.                          </div>
+                        </div>
+                      </div>
+                 </div>
+            </div></div>
+                 <div class="col">
+                 <div class="centerDiv centerIt ">
+                    <img src="../images/phone-check.gif" >
+                </div>
+                 </div>
+                </div>
+            </div>
+
+
+
     </section>
 
-    <div class="centerDiv centerIt">
-    <iframe width="1280" height="720"
-    src="https://www.youtube.com/embed/s-NfumQCiVE">
-</iframe>
-</div>
     <section class="glass2 space " id="firstC">
-        <h3 class="underlined">First Challenge</h3>
+        <h3 class="underlined">The Challenge</h3>
         <div class="container  centerDiv">
-            <p class="fs-4"> For this challenge you are tasked with being the  <span class="boldly">Antivirus! </span>Your goal is to make it to the end. However, you will need to avoid
-                 <span class="boldly">viruses, phishing attempts, trojans and other malware </span> with the appropriate tools for the job.
+            <p class="fs-4"> *Insert Challenge Here*
             </p>
-            
+
             <br></br>
         </div>
 
         <div class="row">
             <div class="col">
-        <p  >Mark module as complete:</p>
-       
+                <p>Mark module as complete:</p>
+
             </div>
             <div class="col">
                 <input type="radio" id="finish" name="fav_language" onclick="handlechange()">
                 <label for="html">Complete</label><br>
             </div>
-           
+
         </div>
     </section>
 
@@ -275,26 +567,27 @@
                 </div>
             </div>
     </section>
-  
-   <!-- Settings Modal -->
-   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content " style="background-color: #3D4450;">
-            <div class="modal-header" >
-                <h1 class="modal-title fs-4" id="exampleModalLabel" >Settings:</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body" style="margin: auto;">
-                <button class="btn-primary  fa-solid fa-eraser icons " id="History"  style="font-size: 12px;"> Erase all Data</button>
-                
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 
+    <!-- Settings Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content " style="background-color: #3D4450;">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4" id="exampleModalLabel">Settings:</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="margin: auto;">
+                    <button class="btn-primary  fa-solid fa-eraser icons " id="History" style="font-size: 12px;"> Erase
+                        all Data</button>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
             </div>
         </div>
     </div>
-</div>
 
     <!-- footer -->
     <footer class="card w-100 centerDiv centerIt footer">
